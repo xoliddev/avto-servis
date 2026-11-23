@@ -1,0 +1,81 @@
+/* Garaj: a warm paper background, a graphite dashboard for the car, signal colours only where they mean something
+   (green = in order, amber = soon, red = due). Laid out for a 375 px phone; Telegram's theme does not repaint it. */
+:root {
+  --paper: #f2efe8; --card: #ffffff; --ink: #1b2127; --ink-2: #4a545e; --ink-3: #87909a; --line: #e4dfd4;
+  --dash: #1b2127; --dash-2: #262e36; --dash-ink: #f4f1ea; --dash-dim: #9aa5b0;
+  --accent: #ff6a2b; --accent-ink: #ffffff; --accent-soft: #fff0e8;
+  --green: #18a06b; --green-soft: #e3f5ec; --amber: #f0a01c; --amber-soft: #fdf2dc; --red: #e0483a; --red-soft: #fde7e4;
+  --verified: #0f7f63; --radius: 16px; --mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.4 var(--sans); -webkit-text-size-adjust: 100%; }
+.g-root { min-height: 100vh; }
+.g-outside { max-width: 420px; margin: 40px auto; padding: 0 20px; color: var(--ink-2); text-align: center; }
+.g-app { display: flex; flex-direction: column; min-height: 100%; background: var(--paper); position: relative; }
+.g-head { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 8px; padding: 10px 14px; background: rgba(242, 239, 232, .94);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); min-height: 52px; }
+.g-grow { flex: 1; }
+.g-title { font-size: 17px; letter-spacing: -.01em; }
+.g-back, .g-lang { border: 0; background: var(--card); color: var(--ink); border-radius: 999px; padding: 7px 13px; font: 600 14px var(--sans); cursor: pointer;
+  box-shadow: 0 0 0 1px var(--line); }
+.g-lang { min-width: 44px; }
+.g-tabs { display: flex; background: #e6e1d6; border-radius: 999px; padding: 3px; }
+.g-tabs button { border: 0; background: transparent; padding: 6px 14px; border-radius: 999px; font: 600 14px var(--sans); color: var(--ink-2); cursor: pointer; }
+.g-tabs button.on { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0, 0, 0, .12); }
+.g-body { flex: 1; overflow-x: hidden; }
+.g-screen { padding: 14px 14px 28px; display: flex; flex-direction: column; gap: 12px; }
+.g-h2 { margin: 2px 2px 0; font-size: 20px; letter-spacing: -.02em; }
+.g-hint { color: var(--ink-3); font-size: 12.5px; margin: 0; }
+.g-hint.center { text-align: center; }
+.g-empty { color: var(--ink-2); background: var(--card); border-radius: var(--radius); padding: 18px; margin: 0; text-align: center; }
+.g-card { background: var(--card); border-radius: var(--radius); padding: 14px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 1px 0 var(--line); }
+.g-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.g-label { font-size: 13px; color: var(--ink-2); }
+.g-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.g-two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.g-btn { border: 0; border-radius: 12px; padding: 11px 16px; font: 600 15px var(--sans); background: #ebe6db; color: var(--ink); cursor: pointer;
+  transition: transform .08s ease, filter .15s ease; }
+.g-btn:active { transform: scale(.98); }
+.g-btn:disabled { opacity: .5; }
+.g-btn.primary { background: var(--accent); color: var(--accent-ink); }
+.g-btn.danger { background: var(--red-soft); color: var(--red); }
+.g-btn.ghost { background: transparent; box-shadow: inset 0 0 0 1px var(--line); color: var(--ink-2); }
+.g-btn.wide { width: 100%; }
+.g-btn.small { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+.g-link { border: 0; background: none; color: var(--accent); font: 600 13px var(--sans); cursor: pointer; padding: 0; }
+.g-form { display: flex; flex-direction: column; gap: 12px; }
+.g-field { display: flex; flex-direction: column; gap: 5px; font-size: 13px; color: var(--ink-2); }
+.g-field small { color: var(--ink-3); }
+.g-field input, .g-field select, .g-km input { width: 100%; border: 1px solid var(--line); background: #fbfaf7; border-radius: 12px; padding: 11px 12px;
+  font: 16px var(--sans); color: var(--ink); outline: none; appearance: none; }
+.g-field input:focus, .g-field select:focus, .g-km input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.g-seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.g-seg label { cursor: pointer; }
+.g-seg input { position: absolute; opacity: 0; pointer-events: none; }
+.g-seg span { display: inline-block; padding: 8px 13px; border-radius: 10px; background: #f4f1ea; box-shadow: inset 0 0 0 1px var(--line); color: var(--ink-2);
+  font-weight: 600; font-size: 14px; }
+.g-seg input:checked + span { background: var(--ink); color: #fff; box-shadow: none; }
+.g-check { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--ink-2); cursor: pointer; }
+.g-check input { width: 18px; height: 18px; accent-color: var(--accent); }
+.g-pill { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 600;
+  background: #eeeae1; color: var(--ink-2); white-space: nowrap; }
+.g-pill.green { background: var(--green-soft); color: var(--green); }
+.g-pill.amber { background: var(--amber-soft); color: #a86a00; }
+.g-chip { display: inline-block; padding: 3px 9px; border-radius: 8px; font-size: 12px; background: rgba(255, 255, 255, .1); color: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .18); }
+.g-card .g-chip, .g-plan .g-chip { background: #f4f1ea; box-shadow: inset 0 0 0 1px var(--line); color: var(--ink-3); }
+.g-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; background: var(--ink-3); margin-top: 5px; }
+.g-dot.green { background: var(--green); }
+.g-dot.amber { background: var(--amber); box-shadow: 0 0 0 4px var(--amber-soft); }
+.g-dot.red { background: var(--red); box-shadow: 0 0 0 4px var(--red-soft); }
+.g-dot.grey { background: #c9c3b7; }
+.g-plate { font: 700 13px var(--mono); padding: 3px 8px; border-radius: 6px; background: #fff; color: #111; box-shadow: inset 0 0 0 2px #111; letter-spacing: .04em;
+  white-space: nowrap; }
+.g-toasts { position: absolute; left: 12px; right: 12px; bottom: 14px; display: flex; flex-direction: column; gap: 6px; z-index: 20; pointer-events: none; }
+.g-toast { background: var(--ink); color: #fff; padding: 11px 14px; border-radius: 12px; font-size: 14px; box-shadow: 0 8px 24px rgba(0, 0, 0, .25);
+  animation: g-in .2s ease; transition: opacity .4s ease, transform .4s ease; }
+.g-toast.bad { background: var(--red); }
+.g-toast.out { opacity: 0; transform: translateY(8px); }
+@keyframes g-in { from { opacity: 0; transform: translateY(8px); } }
+@media (prefers-reduced-motion: reduce) { .g-toast, .g-btn { animation: none; transition: none; } }

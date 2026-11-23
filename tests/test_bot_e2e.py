@@ -113,7 +113,7 @@ async def test_passport_link_deep_link_and_revoke():
 async def test_forged_buttons_and_other_people_are_refused():
     async with service_env() as (svc, _):
         tg = TgSim(svc)
-        for data in (f"c:{NEXIA}", f"h:{NEXIA}", f"g:{NEXIA}", f"gn:{NEXIA}:30:0", "w:home", "x:link", f"ok:1:y", "zz:1", f"wc:{NEXIA}"):
+        for data in (f"c:{NEXIA}", f"h:{NEXIA}", f"g:{NEXIA}", f"gn:{NEXIA}:30:0", "w:home", "x:link", "ok:1:y", "zz:1", f"wc:{NEXIA}"):
             await tg.tap_data(STRANGER, data)
         alerts = tg.alerts()
         assert len(alerts) == 9 and all("Topilmadi" in a or "eskirgan" in a for a in alerts), alerts

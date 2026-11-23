@@ -54,7 +54,8 @@ def ws_home(lang: str, h: dict) -> tuple[str, Rows]:
     if not h["due"]:
         lines.append(t(lang, "ws.due_none"))
     for d in h["due"][:8]:
-        lines.append(f"{DOT[d['status']['state']]} {car_line(lang, d['car'])}: {due_line(lang, d['status'], h['today'])}"
+        name = html.escape(car_line(lang, d["car"]), quote=False)
+        lines.append(f"{DOT[d['status']['state']]} {name}: {due_line(lang, d['status'], h['today'])}"
                      + (" ✉️" if d["invited"] else ""))
         if not d["invited"]:
             rows.append([(t(lang, "btn.invite", car=d["car"]["title"], item=item_name(lang, d["status"]["id"])),

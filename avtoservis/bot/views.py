@@ -3,6 +3,8 @@ service and pass it in. demo/bot-views.js draws the same screens in the browser 
 
 from __future__ import annotations
 
+import html
+
 from ..core import plan as planlib
 from ..i18n import Raw, car_line, date_short, due_line, item_name, km, money, t, when_day
 
@@ -20,7 +22,7 @@ def menu(lang: str, cars: list[dict], roles: dict, hello: bool = False) -> tuple
         lines.append(t(lang, "bot.cars"))
         for c in cars:
             tail = t(lang, "bot.attention", n=c["attention"]) if c["attention"] else t(lang, "bot.all_ok")
-            lines.append(f"• {car_line(lang, c)} — {tail}")
+            lines.append(f"• {html.escape(car_line(lang, c), quote=False)} — {tail}")
     else:
         lines.append(t(lang, "bot.no_cars"))
     rows: Rows = [[(f"🚗 {c['title']}", f"c:{c['id']}")] for c in cars]
