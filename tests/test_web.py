@@ -115,6 +115,8 @@ async def test_strict_input_body_cap_rate_limit_and_headers():
         statuses = [(await c.get("/api/me", headers=h(DRIVER))).status for _ in range(6)]
         assert statuses[-1] == 429
         page = await c.get("/webapp/index.html")
+        root = await c.get("/webapp/")  # the address the bot opens
+        assert root.status == 200 and "<html" in (await root.text()).lower()
         assert page.status == 200 and "frame-ancestors" in page.headers["Content-Security-Policy"]
         assert page.headers["X-Content-Type-Options"] == "nosniff"
         assert (await c.get("/shared/data/plan.json")).status == 200
