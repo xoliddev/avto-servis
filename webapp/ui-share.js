@@ -27,7 +27,7 @@ export function shareScreens(ctx, nav) {
         h('section', { class: 'g-card' }, h('b', {}, P('app.by_item')),
           h('div', { class: 'g-items-list' }, st.items.map((i) => h('div', { class: 'g-item-row' },
             h('span', {}, itemName(T, ctx.lang, i.id)), h('i', { style: { width: `${Math.max(4, Math.round((i.total * 100) / Math.max(1, st.items[0].total)))}%` } }),
-            h('b', {}, S(i.total)))))),
+            h('b', {}, S(i.total))))), h('small', { class: 'g-hint' }, P('app.by_item_hint'))),
         h('button', { class: 'g-btn wide', type: 'button', 'data-testid': 'csv', onclick: async () => {
           if (await nav.run(() => api.csv(cid))) ctx.toast(P('app.csv_sent'));
         } }, P('app.csv'))),

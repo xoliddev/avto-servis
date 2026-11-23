@@ -42,7 +42,8 @@ export function makeViews(t) {
     const wanted = new Set(list.map((i) => i.id));
     const lines = v.statuses.filter((s) => wanted.has(s.id)).map((s) => `${DOT[s.state]} ${dueLine(t, lang, s, v.today)}`);
     const html = ask && !lines.length ? t(lang, 'notify.ask', { car: carLine(v.car), days: v.today - v.points.at(-1)[0] })
-      : `${t(lang, 'notify.remind', { car: carLine(v.car), lines: new Raw(lines.join('\n')) })}\n\n${t(lang, 'notify.remind_tail')}`;
+      : t(lang, 'notify.remind', { car: carLine(v.car), lines: new Raw(lines.join('\n')) })
+        + (v.statuses.some((s) => wanted.has(s.id) && s.basis === 'km') ? `\n\n${t(lang, 'notify.remind_tail')}` : '');
     const rs = [];
     if (v.car.odo > v.points.at(-1)[1]) rs.push([[t(lang, 'btn.km_ok', { km: km(t, lang, v.car.odo) }), `r:${cid}:${v.car.odo}`]]);
     rs.push([[t(lang, 'btn.km_other'), `c:${cid}:km`]], [[t(lang, 'btn.car'), `c:${cid}`]]);

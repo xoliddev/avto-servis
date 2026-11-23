@@ -90,7 +90,9 @@ def remind(lang: str, v: dict, items: list[dict], ask: bool) -> tuple[str, Rows]
     if ask and not lines:
         text = t(lang, "notify.ask", car=car_line(lang, v["car"]), days=today - v["points"][-1][0])
     else:
-        text = t(lang, "notify.remind", car=car_line(lang, v["car"]), lines=Raw("\n".join(lines))) + "\n\n" + t(lang, "notify.remind_tail")
+        text = t(lang, "notify.remind", car=car_line(lang, v["car"]), lines=Raw("\n".join(lines)))
+        if any(s["basis"] == "km" for s in v["statuses"] if s["id"] in wanted):  # "send km" only helps km-based items
+            text += "\n\n" + t(lang, "notify.remind_tail")
     rows: Rows = []
     if v["car"]["odo"] > v["points"][-1][1]:
         rows.append([(t(lang, "btn.km_ok", km=km(lang, v["car"]["odo"])), f"r:{cid}:{v['car']['odo']}")])

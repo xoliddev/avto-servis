@@ -82,7 +82,7 @@ export function workshopScreens(ctx, nav) {
       async poll() { const n = await api.wsCar(cid); if (JSON.stringify(n) === JSON.stringify(v)) return false; v = n; return true; },
       render: () => h('div', { class: 'g-screen', 'data-testid': 'ws-car' },
         h('section', { class: 'g-hero' }, h('div', { class: 'g-hero-top' }, h('h2', {}, v.car.title), v.car.plate ? h('span', { class: 'g-plate' }, v.car.plate) : null),
-          h('div', { class: 'g-odo' }, h('small', {}, P('app.odo_now')), h('b', {}, K(v.car.odo)))),
+          h('div', { class: 'g-odo' }, h('small', {}, P('app.odo_est')), h('b', {}, K(v.car.odo)))),
         h('section', { class: 'g-card' }, h('div', { class: 'g-plan' }, v.statuses.slice(0, 5).map((st) => h('div', { class: `g-plan-row ${st.state}` },
           h('i', { class: `g-dot ${DOT[st.state]}` }), h('span', { class: 'g-plan-main' }, h('span', { class: 'g-due', html: dueLine(T, ctx.lang, st, v.today) })))))),
         h('form', { class: 'g-card g-form', onsubmit: send, 'data-testid': 'ws-form' }, h('b', {}, P('app.ws_record')),

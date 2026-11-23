@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-11-23
+
+- The workshop screen labels its odometer "Spidometr, taxminan bugun": it is today's estimate, while the owner's card
+  shows the last reading, so the two different numbers no longer look like a mismatch.
+- Reminders ask for the current km only when they include a km-based item (not for OSAGO or texnik ko'rik alone).
+- Spending by item explains that a record with several jobs is split between them equally.
+
 ## 1.0.0 — 2026-11-23
 
 Daily portfolio challenge #6.
