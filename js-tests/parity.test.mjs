@@ -6,6 +6,7 @@ import * as cars from '../shared/cars.js';
 import * as clock from '../shared/clock.js';
 import * as forecast from '../shared/forecast.js';
 import { compute } from '../shared/garage.js';
+import * as i18n from '../shared/i18n.js';
 import * as money from '../shared/money.js';
 import * as odometer from '../shared/odometer.js';
 import * as plan from '../shared/plan.js';
@@ -20,6 +21,7 @@ const read = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), 'utf8')
 const V = read('../shared/test_vectors.json');
 const data = { people: read('../shared/data/people.json'), models: read('../shared/data/models.json'), plan: read('../shared/data/plan.json') };
 const TODAY = V.today;
+const t = i18n.makeT({ uz: read('../shared/locales/uz.json'), ru: read('../shared/locales/ru.json') });
 
 function res(fn) {
   try {
@@ -110,4 +112,16 @@ test('the seeded world and the Nexia\'s plan are the same in Python and JS (also
     const snap = compute(car, rows, w.readings.filter((r) => r.car_id === car.id), w.records.filter((r) => r.car_id === car.id), data.models, data.plan, w.today);
     assert.deepEqual(snap, nexia, now);
   }
+});
+
+test('the same sentence in Python and JS: "Motor moyi: 540 km qoldi — taxminan ..." in Uzbek and Russian', () => {
+  for (const v of V.lines) {
+    assert.equal(i18n.dueLine(t, 'uz', v.st, v.today), v.uz);
+    assert.equal(i18n.dueLine(t, 'ru', v.st, v.today), v.ru);
+  }
+  for (const v of V.dates) {
+    assert.deepEqual([i18n.whenDay(t, 'uz', v.day, v.today), i18n.whenDay(t, 'ru', v.day, v.today), i18n.dateFull(v.day)], [v.uz, v.ru, v.full]);
+  }
+  const uz = Object.keys(read('../shared/locales/uz.json')).sort();
+  assert.deepEqual(Object.keys(read('../shared/locales/ru.json')).sort(), uz, 'both locales have the same keys');
 });

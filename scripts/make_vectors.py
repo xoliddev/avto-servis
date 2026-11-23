@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from avtoservis import i18n  # noqa: E402
 from avtoservis.base import compute  # noqa: E402
 from avtoservis.core import cars, clock, forecast, odometer, plan, records, reminders, seedgen, stats, text, token  # noqa: E402
 
@@ -151,6 +152,11 @@ def main() -> None:
         snap = compute(car, rows, [r for r in w["readings"] if r["car_id"] == car["id"]], recs, load("models"), cfg, w["today"])
         worlds[str(n)] = {"world": w, "nexia": snap}
     v["world"] = worlds
+    sts = [s["out"] for s in v["status"]] + worlds[str(NYE)]["nexia"]["statuses"]
+    v["lines"] = [{"st": s, "today": t, "uz": i18n.due_line("uz", s, t), "ru": i18n.due_line("ru", s, t)}
+                  for s in sts for t in (TODAY, worlds[str(NYE)]["world"]["today"]) if s["due_day"] is None or abs(s["due_day"] - t) < 4000]
+    v["dates"] = [{"day": d, "today": TODAY, "uz": i18n.when_day("uz", d, TODAY), "ru": i18n.when_day("ru", d, TODAY),
+                   "full": i18n.date_full("uz", d)} for d in (TODAY - 3, TODAY, TODAY + 1, TODAY + 13, TODAY + 44)]
     OUT.write_bytes((json.dumps(v, ensure_ascii=False, indent=1) + "\n").encode())
     print(f"wrote {OUT.relative_to(ROOT)}")
 
