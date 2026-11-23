@@ -94,7 +94,8 @@ async def test_invitations_need_permission_and_go_once_per_item():
         first = home["due"][0]
         home, notes = await svc.ws_invite(MASTER, first["car"]["id"], first["status"]["id"])
         assert notes[0]["type"] == "invite" and notes[0]["to"] == first["car"]["id"] + 100
-        assert next(d for d in home["due"] if d["status"]["id"] == first["status"]["id"] and d["car"]["id"] == first["car"]["id"])["invited"]
+        same = [d for d in home["due"] if (d["car"]["id"], d["status"]["id"]) == (first["car"]["id"], first["status"]["id"])]
+        assert same[0]["invited"]
         await refused("invited", svc.ws_invite(MASTER, first["car"]["id"], first["status"]["id"]))
         await refused("not_allowed", svc.ws_invite(MASTER, NEXIA, "motor_moyi"))
         await svc.set_shop(first["car"]["id"] + 100, first["car"]["id"], 1, allow=False)

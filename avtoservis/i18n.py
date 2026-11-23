@@ -62,7 +62,7 @@ def km(lang: str, n: int) -> str:
 
 
 def date_short(lang: str, day: int) -> str:
-    y, m, d = civil(day)
+    _y, m, d = civil(day)
     return t(lang, "fmt.day", d=d, month=t(lang, f"month.{m}"))
 
 
