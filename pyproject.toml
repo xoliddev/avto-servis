@@ -1,0 +1,24 @@
+[project]
+name = "avto-servis"
+version = "1.0.0"
+description = "Car service book for Uzbekistan: Telegram bot + Mini App that forecasts the next service from mileage, workshop-confirmed records and a shareable Servis pasporti for used-car buyers"
+license = "MIT"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+extend-exclude = ["node_modules"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101", "S105", "S106", "S311", "S603"]
+"scripts/*" = ["S101", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

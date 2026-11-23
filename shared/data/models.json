@@ -1,0 +1,16 @@
+[
+ {"id": "cobalt", "name": "Chevrolet Cobalt", "from": 2013, "grm": "belt", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "gentra", "name": "Chevrolet Gentra", "from": 2013, "grm": "belt", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "nexia3", "name": "Chevrolet Nexia 3", "from": 2016, "to": 2020, "grm": "belt", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "spark", "name": "Chevrolet Spark", "from": 2010, "to": 2022, "grm": "chain", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "damas", "name": "Chevrolet Damas", "from": 2005, "grm": "belt", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "lacetti", "name": "Chevrolet Lacetti", "from": 2008, "grm": "belt", "fuels": ["benzin", "metan", "propan"]},
+ {"id": "malibu", "name": "Chevrolet Malibu", "from": 2016, "grm": "chain", "fuels": ["benzin"]},
+ {"id": "tracker", "name": "Chevrolet Tracker", "from": 2021, "grm": "chain", "fuels": ["benzin"]},
+ {"id": "onix", "name": "Chevrolet Onix", "from": 2023, "grm": "chain", "fuels": ["benzin", "metan"]},
+ {"id": "captiva", "name": "Chevrolet Captiva", "from": 2012, "grm": "chain", "fuels": ["benzin"]},
+ {"id": "byd_chazor", "name": "BYD Chazor", "from": 2024, "grm": "chain", "fuels": ["gibrid"]},
+ {"id": "byd_song", "name": "BYD Song Plus", "from": 2023, "grm": "chain", "fuels": ["gibrid", "elektr"]},
+ {"id": "kia_k5", "name": "Kia K5", "from": 2021, "grm": "chain", "fuels": ["benzin"]},
+ {"id": "other", "name": "", "from": 1985, "grm": "belt", "fuels": ["benzin", "metan", "propan", "gibrid", "elektr"]}
+]

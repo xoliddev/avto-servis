@@ -1,0 +1,22 @@
+{
+ "soon_km": 500,
+ "soon_days": 7,
+ "jump_km_per_day": 1500,
+ "ask_after_days": 14,
+ "daily_km": {"shaxsiy": 45, "taksi": 180},
+ "items": [
+  {"id": "motor_moyi", "km": 8000, "months": 6, "fuel_pct": {"metan": 85, "propan": 90}, "taxi_pct": 80, "fuels": ["benzin", "metan", "propan", "gibrid"], "price": [40000, 340000]},
+  {"id": "moy_filtri", "km": 8000, "months": 6, "fuel_pct": {"metan": 85, "propan": 90}, "taxi_pct": 80, "fuels": ["benzin", "metan", "propan", "gibrid"], "price": [0, 65000]},
+  {"id": "havo_filtri", "km": 15000, "months": 12, "fuel_pct": {"metan": 80, "propan": 90}, "taxi_pct": 80, "fuels": ["benzin", "metan", "propan", "gibrid"], "price": [10000, 70000]},
+  {"id": "salon_filtri", "km": 15000, "months": 12, "taxi_pct": 80, "price": [10000, 60000]},
+  {"id": "tormoz_kolodka", "km": 30000, "taxi_pct": 70, "price": [120000, 380000]},
+  {"id": "svecha", "km": 30000, "fuel_pct": {"metan": 60, "propan": 70}, "taxi_pct": 85, "fuels": ["benzin", "metan", "propan", "gibrid"], "price": [60000, 160000]},
+  {"id": "antifriz", "km": 60000, "months": 36, "price": [50000, 180000]},
+  {"id": "grm_remni", "km": 60000, "months": 48, "taxi_pct": 85, "belt": true, "fuels": ["benzin", "metan", "propan", "gibrid"], "price": [400000, 950000]},
+  {"id": "akkumulyator", "months": 12, "price": [0, 990000]},
+  {"id": "texnik_korik", "months": 12, "taxi_months": 6, "calendar": true, "price": [0, 150000]},
+  {"id": "osago", "months": 12, "calendar": true, "price": [0, 168000]},
+  {"id": "metan_ballon", "months": 12, "calendar": true, "fuels": ["metan", "propan"], "price": [0, 220000]},
+  {"id": "shina", "season": [[11, 15], [3, 15]], "price": [80000, 0]}
+ ]
+}

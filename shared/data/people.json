@@ -1,0 +1,21 @@
+{
+ "driver": {"name": "Jasur Karimov", "phone": "+998 90 000 12 34"},
+ "master": {"name": "Bekzod Aliyev", "phone": "+998 93 000 45 67"},
+ "buyer": {"name": "Sherzod Qodirov", "phone": "+998 97 000 78 90"},
+ "admin": {"name": "Admin"},
+ "owners": [
+  {"name": "Dilshod Rahimov", "model": "gentra", "year": 2020, "fuel": "metan", "usage": "taksi", "plate": "01 B 482 KA", "start_km": 96000, "daily": 165},
+  {"name": "Madina Yusupova", "model": "spark", "year": 2019, "fuel": "benzin", "usage": "shaxsiy", "plate": "01 C 317 MB", "start_km": 52000, "daily": 31},
+  {"name": "Rustam Ergashev", "model": "damas", "year": 2017, "fuel": "metan", "usage": "taksi", "plate": "10 D 905 RA", "start_km": 171000, "daily": 140},
+  {"name": "Nigora Saidova", "model": "malibu", "year": 2022, "fuel": "benzin", "usage": "shaxsiy", "plate": "01 E 777 NS", "start_km": 38000, "daily": 42},
+  {"name": "Akmal Tursunov", "model": "byd_chazor", "year": 2025, "fuel": "gibrid", "usage": "shaxsiy", "plate": "01 F 120 AT", "start_km": 9000, "daily": 55},
+  {"name": "Kamola Nazarova", "model": "tracker", "year": 2023, "fuel": "benzin", "usage": "shaxsiy", "plate": "01 G 641 KN", "start_km": 27000, "daily": 38}
+ ],
+ "workshops": [
+  {"name": "Turbo Servis", "district": "Chilonzor", "address": "Chilonzor, Bunyodkor ko'chasi 21"},
+  {"name": "Avto Doktor", "district": "Yunusobod", "address": "Yunusobod 4-mavze, Amir Temur 108"},
+  {"name": "Motor Plus", "district": "Sergeli", "address": "Sergeli, Yangi Sergeli 7"}
+ ],
+ "nexia": {"model": "nexia3", "year": 2019, "fuel": "benzin", "usage": "shaxsiy", "plate": "01 A 254 JK", "start_km": 61000, "daily": 41},
+ "cobalt": {"model": "cobalt", "year": 2021, "fuel": "metan", "usage": "shaxsiy", "plate": "01 A 123 BC", "odo": 86900, "last_oil": 80900}
+}

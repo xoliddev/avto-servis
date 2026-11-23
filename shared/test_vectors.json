@@ -1,0 +1,11547 @@
+{
+ "today": 20775,
+ "civil": [
+  {
+   "day": 0,
+   "out": [
+    1970,
+    1,
+    1
+   ],
+   "back": 0
+  },
+  {
+   "day": 59,
+   "out": [
+    1970,
+    3,
+    1
+   ],
+   "back": 59
+  },
+  {
+   "day": 365,
+   "out": [
+    1971,
+    1,
+    1
+   ],
+   "back": 365
+  },
+  {
+   "day": 11016,
+   "out": [
+    2000,
+    2,
+    29
+   ],
+   "back": 11016
+  },
+  {
+   "day": 20775,
+   "out": [
+    2026,
+    11,
+    18
+   ],
+   "back": 20775
+  },
+  {
+   "day": 20818,
+   "out": [
+    2026,
+    12,
+    31
+   ],
+   "back": 20818
+  },
+  {
+   "day": 20819,
+   "out": [
+    2027,
+    1,
+    1
+   ],
+   "back": 20819
+  },
+  {
+   "day": 21184,
+   "out": [
+    2028,
+    1,
+    1
+   ],
+   "back": 21184
+  },
+  {
+   "day": -1,
+   "out": [
+    1969,
+    12,
+    31
+   ],
+   "back": -1
+  },
+  {
+   "day": -719468,
+   "out": [
+    0,
+    3,
+    1
+   ],
+   "back": -719468
+  }
+ ],
+ "add_months": [
+  {
+   "day": 20484,
+   "n": -12,
+   "out": 20119
+  },
+  {
+   "day": 20484,
+   "n": -1,
+   "out": 20453
+  },
+  {
+   "day": 20484,
+   "n": 1,
+   "out": 20512
+  },
+  {
+   "day": 20484,
+   "n": 6,
+   "out": 20665
+  },
+  {
+   "day": 20484,
+   "n": 13,
+   "out": 20877
+  },
+  {
+   "day": 20513,
+   "n": -12,
+   "out": 20148
+  },
+  {
+   "day": 20513,
+   "n": -1,
+   "out": 20485
+  },
+  {
+   "day": 20513,
+   "n": 1,
+   "out": 20544
+  },
+  {
+   "day": 20513,
+   "n": 6,
+   "out": 20697
+  },
+  {
+   "day": 20513,
+   "n": 13,
+   "out": 20909
+  },
+  {
+   "day": 20819,
+   "n": -12,
+   "out": 20454
+  },
+  {
+   "day": 20819,
+   "n": -1,
+   "out": 20788
+  },
+  {
+   "day": 20819,
+   "n": 1,
+   "out": 20850
+  },
+  {
+   "day": 20819,
+   "n": 6,
+   "out": 21000
+  },
+  {
+   "day": 20819,
+   "n": 13,
+   "out": 21215
+  },
+  {
+   "day": 20775,
+   "n": -12,
+   "out": 20410
+  },
+  {
+   "day": 20775,
+   "n": -1,
+   "out": 20744
+  },
+  {
+   "day": 20775,
+   "n": 1,
+   "out": 20805
+  },
+  {
+   "day": 20775,
+   "n": 6,
+   "out": 20956
+  },
+  {
+   "day": 20775,
+   "n": 13,
+   "out": 21170
+  }
+ ],
+ "parse_date": [
+  {
+   "in": "12.11.2026",
+   "out": 20769
+  },
+  {
+   "in": "1/3/2027",
+   "out": 20878
+  },
+  {
+   "in": "29.02.2027",
+   "out": null
+  },
+  {
+   "in": "29-02-2028",
+   "out": 21243
+  },
+  {
+   "in": "31.04.2026",
+   "out": null
+  },
+  {
+   "in": "12.11.26",
+   "out": 20769
+  },
+  {
+   "in": "12.11",
+   "out": null
+  },
+  {
+   "in": "",
+   "out": null
+  },
+  {
+   "in": "a.b.c",
+   "out": null
+  },
+  {
+   "in": 5,
+   "out": null
+  }
+ ],
+ "clean": [
+  {
+   "in": "  a \t b\n",
+   "n": 10,
+   "out": "a b"
+  },
+  {
+   "in": "abc‮def",
+   "n": 20,
+   "out": "abc def"
+  },
+  {
+   "in": "xxxxxxxxxxxxxxxxxxxx",
+   "n": 5,
+   "out": "xxxxx"
+  },
+  {
+   "in": null,
+   "n": 5,
+   "out": ""
+  },
+  {
+   "in": "😀😀😀",
+   "n": 2,
+   "out": "😀😀"
+  }
+ ],
+ "whole": [
+  {
+   "in": 1,
+   "out": {
+    "ok": 1
+   }
+  },
+  {
+   "in": 5,
+   "out": {
+    "ok": 5
+   }
+  },
+  {
+   "in": 0,
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": 6,
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": "3",
+   "out": {
+    "ok": 3
+   }
+  },
+  {
+   "in": "",
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": "x",
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": true,
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": 2.5,
+   "out": {
+    "error": "n"
+   }
+  },
+  {
+   "in": null,
+   "out": {
+    "error": "n"
+   }
+  }
+ ],
+ "h32": [
+  {
+   "in": "",
+   "out": 2166136261
+  },
+  {
+   "in": "a",
+   "out": 3826002220
+  },
+  {
+   "in": "gap:1:0",
+   "out": 1193227280
+  },
+  {
+   "in": "Jasur Karimov",
+   "out": 3006809519
+  },
+  {
+   "in": "мотор",
+   "out": 666457435
+  }
+ ],
+ "split": [
+  {
+   "t": 100,
+   "n": 3,
+   "out": [
+    34,
+    33,
+    33
+   ]
+  },
+  {
+   "t": 465000,
+   "n": 2,
+   "out": [
+    232500,
+    232500
+   ]
+  },
+  {
+   "t": 0,
+   "n": 4,
+   "out": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "t": 7,
+   "n": 1,
+   "out": [
+    7
+   ]
+  },
+  {
+   "t": 5,
+   "n": 0,
+   "out": []
+  }
+ ],
+ "car": [
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "ok": {
+     "model": "cobalt",
+     "name": "",
+     "year": 2021,
+     "fuel": "metan",
+     "usage": "shaxsiy",
+     "odo": 86900,
+     "plate": "01 A 123 BC",
+     "last_oil": 80900
+    }
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01 123 abc",
+    "last_oil": 80900
+   },
+   "out": {
+    "ok": {
+     "model": "cobalt",
+     "name": "",
+     "year": 2021,
+     "fuel": "metan",
+     "usage": "shaxsiy",
+     "odo": 86900,
+     "plate": "01 123 ABC",
+     "last_oil": 80900
+    }
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "AA 123",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "plate"
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2030,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "year"
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "elektr",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "fuel"
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": -1,
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "odo"
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 90000
+   },
+   "out": {
+    "error": "last_oil"
+   }
+  },
+  {
+   "in": {
+    "model": "x",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "model"
+   }
+  },
+  {
+   "in": {
+    "model": "other",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900,
+    "name": " Lada  "
+   },
+   "out": {
+    "ok": {
+     "model": "other",
+     "name": "Lada",
+     "year": 2021,
+     "fuel": "metan",
+     "usage": "shaxsiy",
+     "odo": 86900,
+     "plate": "01 A 123 BC",
+     "last_oil": 80900
+    }
+   }
+  },
+  {
+   "in": {
+    "model": "other",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900,
+    "name": "L"
+   },
+   "out": {
+    "error": "name"
+   }
+  },
+  {
+   "in": {
+    "model": "cobalt",
+    "year": 2021,
+    "fuel": "metan",
+    "usage": "kran",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "usage"
+   }
+  },
+  {
+   "in": {
+    "model": "nexia3",
+    "year": 2022,
+    "fuel": "metan",
+    "usage": "shaxsiy",
+    "odo": "86900",
+    "plate": "01a123bc",
+    "last_oil": 80900
+   },
+   "out": {
+    "error": "year"
+   }
+  },
+  {
+   "in": "x",
+   "out": {
+    "error": "generic"
+   }
+  }
+ ],
+ "code": [
+  {
+   "n": 0,
+   "out": "AAAAAAAA"
+  },
+  {
+   "n": 1,
+   "out": "BAAAAAAA"
+  },
+  {
+   "n": 1099511627775,
+   "out": "99999999"
+  },
+  {
+   "n": 123456789012,
+   "out": "WSGUK9UD"
+  }
+ ],
+ "norm_code": [
+  {
+   "in": "abcd-ef23",
+   "out": "ABCDEF23"
+  },
+  {
+   "in": "ABCD EF23",
+   "out": "ABCDEF23"
+  },
+  {
+   "in": "ABCDEF2",
+   "out": null
+  },
+  {
+   "in": "ABCDEF20",
+   "out": null
+  },
+  {
+   "in": 12,
+   "out": null
+  },
+  {
+   "in": "ab cd ef 23 ",
+   "out": "ABCDEF23"
+  }
+ ],
+ "title": [
+  "Chevrolet Cobalt 2020",
+  "Lada Vesta 2020"
+ ],
+ "forecast": [
+  {
+   "in": [
+    [
+     20775,
+     86900
+    ]
+   ],
+   "fc": {
+    "rate": 45000,
+    "lo": 24750,
+    "hi": 65250,
+    "n": 0,
+    "margin": 45,
+    "day": 20775,
+    "km": 86900
+   },
+   "odo": [
+    86900,
+    86945,
+    88250
+   ],
+   "day_for": [
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20776,
+    20776,
+    20776,
+    null,
+    20789,
+    20800,
+    20785,
+    null,
+    20998,
+    21180,
+    20929,
+    null
+   ]
+  },
+  {
+   "in": [
+    [
+     20770,
+     86900
+    ],
+    [
+     20775,
+     87160
+    ]
+   ],
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "odo": [
+    87160,
+    87212,
+    88720
+   ],
+   "day_for": [
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20776,
+    20776,
+    20776,
+    null,
+    20787,
+    20794,
+    20784,
+    null,
+    20968,
+    21076,
+    20917,
+    null
+   ]
+  },
+  {
+   "in": [
+    [
+     20735,
+     50000
+    ],
+    [
+     20745,
+     50400
+    ],
+    [
+     20754,
+     50800
+    ],
+    [
+     20766,
+     51300
+    ],
+    [
+     20773,
+     51700
+    ],
+    [
+     20775,
+     51790
+    ]
+   ],
+   "fc": {
+    "rate": 44444,
+    "lo": 40888,
+    "hi": 57142,
+    "n": 5,
+    "margin": 8,
+    "day": 20775,
+    "km": 51790
+   },
+   "odo": [
+    51790,
+    51834,
+    53123
+   ],
+   "day_for": [
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20776,
+    20776,
+    20776,
+    null,
+    20789,
+    20790,
+    20786,
+    null,
+    21001,
+    21020,
+    20951,
+    null
+   ]
+  },
+  {
+   "in": [
+    [
+     20772,
+     1000
+    ],
+    [
+     20772,
+     1200
+    ],
+    [
+     20775,
+     1500
+    ],
+    [
+     20774,
+     1300
+    ]
+   ],
+   "fc": {
+    "rate": 50000,
+    "lo": 41000,
+    "hi": 200000,
+    "n": 2,
+    "margin": 18,
+    "day": 20775,
+    "km": 1500
+   },
+   "odo": [
+    1500,
+    1550,
+    3000
+   ],
+   "day_for": [
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20776,
+    20776,
+    20776,
+    null,
+    20787,
+    20790,
+    20778,
+    null,
+    20975,
+    21019,
+    20825,
+    null
+   ]
+  },
+  {
+   "in": [
+    [
+     20765,
+     500
+    ],
+    [
+     20775,
+     500
+    ]
+   ],
+   "fc": {
+    "rate": 0,
+    "lo": 0,
+    "hi": 0,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 500
+   },
+   "odo": [
+    500,
+    500,
+    500
+   ],
+   "day_for": [
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    20775,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "in": [
+    [
+     20475,
+     10000
+    ],
+    [
+     20482,
+     10390
+    ],
+    [
+     20489,
+     10780
+    ],
+    [
+     20496,
+     10900
+    ],
+    [
+     20503,
+     11290
+    ],
+    [
+     20510,
+     11680
+    ],
+    [
+     20517,
+     11800
+    ],
+    [
+     20524,
+     12190
+    ],
+    [
+     20531,
+     12580
+    ],
+    [
+     20538,
+     12700
+    ],
+    [
+     20545,
+     13090
+    ],
+    [
+     20552,
+     13480
+    ],
+    [
+     20559,
+     13600
+    ],
+    [
+     20566,
+     13990
+    ],
+    [
+     20573,
+     14380
+    ],
+    [
+     20580,
+     14500
+    ],
+    [
+     20587,
+     14890
+    ],
+    [
+     20594,
+     15280
+    ],
+    [
+     20601,
+     15400
+    ],
+    [
+     20608,
+     15790
+    ],
+    [
+     20615,
+     16180
+    ],
+    [
+     20622,
+     16300
+    ],
+    [
+     20629,
+     16690
+    ],
+    [
+     20636,
+     17080
+    ],
+    [
+     20643,
+     17200
+    ],
+    [
+     20650,
+     17590
+    ],
+    [
+     20657,
+     17980
+    ],
+    [
+     20664,
+     18100
+    ],
+    [
+     20671,
+     18490
+    ],
+    [
+     20678,
+     18880
+    ]
+   ],
+   "fc": {
+    "rate": 55714,
+    "lo": 17142,
+    "hi": 60172,
+    "n": 12,
+    "margin": 8,
+    "day": 20678,
+    "km": 18880
+   },
+   "odo": [
+    24284,
+    24339,
+    25955
+   ],
+   "day_for": [
+    20678,
+    20678,
+    20678,
+    20678,
+    20678,
+    20678,
+    20678,
+    20678,
+    20679,
+    20679,
+    20679,
+    null,
+    20689,
+    20714,
+    20688,
+    null,
+    20858,
+    21262,
+    20845,
+    null
+   ]
+  }
+ ],
+ "check": [
+  {
+   "in": [
+    null,
+    20775,
+    100,
+    false
+   ],
+   "out": {
+    "ok": [
+     100,
+     false
+    ]
+   }
+  },
+  {
+   "in": [
+    [
+     20773,
+     87160
+    ],
+    20775,
+    87029,
+    false
+   ],
+   "out": {
+    "error": "odo_back"
+   }
+  },
+  {
+   "in": [
+    [
+     20773,
+     87160
+    ],
+    20775,
+    90200,
+    false
+   ],
+   "out": {
+    "ok": [
+     90200,
+     true
+    ]
+   }
+  },
+  {
+   "in": [
+    [
+     20773,
+     87160
+    ],
+    20775,
+    90000,
+    true
+   ],
+   "out": {
+    "ok": [
+     90000,
+     false
+    ]
+   }
+  },
+  {
+   "in": [
+    [
+     20775,
+     5
+    ],
+    20775,
+    1505,
+    false
+   ],
+   "out": {
+    "ok": [
+     1505,
+     false
+    ]
+   }
+  },
+  {
+   "in": [
+    [
+     20775,
+     5
+    ],
+    20775,
+    1506,
+    false
+   ],
+   "out": {
+    "ok": [
+     1506,
+     true
+    ]
+   }
+  },
+  {
+   "in": [
+    [
+     20775,
+     5
+    ],
+    20775,
+    "x",
+    false
+   ],
+   "out": {
+    "error": "odo"
+   }
+  },
+  {
+   "in": [
+    [
+     20775,
+     5
+    ],
+    20775,
+    2000001,
+    false
+   ],
+   "out": {
+    "error": "odo"
+   }
+  }
+ ],
+ "fits": [
+  {
+   "day": 20760,
+   "km": 300,
+   "out": {
+    "ok": null
+   }
+  },
+  {
+   "day": 20760,
+   "km": 50,
+   "out": {
+    "error": "odo_order"
+   }
+  },
+  {
+   "day": 20760,
+   "km": 450,
+   "out": {
+    "error": "odo_order"
+   }
+  },
+  {
+   "day": 20765,
+   "km": 401,
+   "out": {
+    "ok": null
+   }
+  },
+  {
+   "day": 20776,
+   "km": 950,
+   "out": {
+    "ok": null
+   }
+  },
+  {
+   "day": 20745,
+   "km": 90,
+   "out": {
+    "ok": null
+   }
+  }
+ ],
+ "consistency": [
+  {
+   "ok": true,
+   "back": 0,
+   "jumps": 0,
+   "n": 3,
+   "first_day": 20755,
+   "last_day": 20775,
+   "first_km": 100,
+   "last_km": 900,
+   "per_day": 40
+  },
+  {
+   "ok": true,
+   "back": 0,
+   "jumps": 0,
+   "n": 0,
+   "first_day": null,
+   "last_day": null,
+   "first_km": null,
+   "last_km": null,
+   "per_day": null
+  },
+  {
+   "ok": true,
+   "back": 0,
+   "jumps": 0,
+   "n": 1,
+   "first_day": 1,
+   "last_day": 1,
+   "first_km": 5,
+   "last_km": 5,
+   "per_day": null
+  },
+  {
+   "ok": false,
+   "back": 1,
+   "jumps": 1,
+   "n": 3,
+   "first_day": 1,
+   "last_day": 3,
+   "first_km": 5,
+   "last_km": 9000,
+   "per_day": 4497
+  }
+ ],
+ "interval": [
+  {
+   "item": "motor_moyi",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    8000,
+    6
+   ]
+  },
+  {
+   "item": "motor_moyi",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    6400,
+    6
+   ]
+  },
+  {
+   "item": "motor_moyi",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    6800,
+    6
+   ]
+  },
+  {
+   "item": "motor_moyi",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    5400,
+    6
+   ]
+  },
+  {
+   "item": "moy_filtri",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    8000,
+    6
+   ]
+  },
+  {
+   "item": "moy_filtri",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    6400,
+    6
+   ]
+  },
+  {
+   "item": "moy_filtri",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    6800,
+    6
+   ]
+  },
+  {
+   "item": "moy_filtri",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    5400,
+    6
+   ]
+  },
+  {
+   "item": "havo_filtri",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    15000,
+    12
+   ]
+  },
+  {
+   "item": "havo_filtri",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    12000,
+    12
+   ]
+  },
+  {
+   "item": "havo_filtri",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    12000,
+    12
+   ]
+  },
+  {
+   "item": "havo_filtri",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    9600,
+    12
+   ]
+  },
+  {
+   "item": "salon_filtri",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    15000,
+    12
+   ]
+  },
+  {
+   "item": "salon_filtri",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    12000,
+    12
+   ]
+  },
+  {
+   "item": "salon_filtri",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    15000,
+    12
+   ]
+  },
+  {
+   "item": "salon_filtri",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    12000,
+    12
+   ]
+  },
+  {
+   "item": "tormoz_kolodka",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    30000,
+    null
+   ]
+  },
+  {
+   "item": "tormoz_kolodka",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    21000,
+    null
+   ]
+  },
+  {
+   "item": "tormoz_kolodka",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    30000,
+    null
+   ]
+  },
+  {
+   "item": "tormoz_kolodka",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    21000,
+    null
+   ]
+  },
+  {
+   "item": "svecha",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    30000,
+    null
+   ]
+  },
+  {
+   "item": "svecha",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    25500,
+    null
+   ]
+  },
+  {
+   "item": "svecha",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    18000,
+    null
+   ]
+  },
+  {
+   "item": "svecha",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    15300,
+    null
+   ]
+  },
+  {
+   "item": "antifriz",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    60000,
+    36
+   ]
+  },
+  {
+   "item": "antifriz",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    60000,
+    36
+   ]
+  },
+  {
+   "item": "antifriz",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    60000,
+    36
+   ]
+  },
+  {
+   "item": "antifriz",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    60000,
+    36
+   ]
+  },
+  {
+   "item": "grm_remni",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    60000,
+    48
+   ]
+  },
+  {
+   "item": "grm_remni",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    51000,
+    48
+   ]
+  },
+  {
+   "item": "grm_remni",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    60000,
+    48
+   ]
+  },
+  {
+   "item": "grm_remni",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    51000,
+    48
+   ]
+  },
+  {
+   "item": "akkumulyator",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "akkumulyator",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "akkumulyator",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "akkumulyator",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "texnik_korik",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "texnik_korik",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    null,
+    6
+   ]
+  },
+  {
+   "item": "texnik_korik",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "texnik_korik",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    null,
+    6
+   ]
+  },
+  {
+   "item": "osago",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "osago",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "osago",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "osago",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "metan_ballon",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "metan_ballon",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "metan_ballon",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "metan_ballon",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    null,
+    12
+   ]
+  },
+  {
+   "item": "shina",
+   "fuel": "benzin",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    null
+   ]
+  },
+  {
+   "item": "shina",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    null,
+    null
+   ]
+  },
+  {
+   "item": "shina",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    null,
+    null
+   ]
+  },
+  {
+   "item": "shina",
+   "fuel": "metan",
+   "usage": "taksi",
+   "out": [
+    null,
+    null
+   ]
+  }
+ ],
+ "items_for": [
+  {
+   "model": "cobalt",
+   "fuel": "metan",
+   "usage": "shaxsiy",
+   "out": [
+    {
+     "id": "motor_moyi",
+     "km": 7000,
+     "months": 6,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 6800
+    },
+    {
+     "id": "moy_filtri",
+     "km": 6800,
+     "months": 6,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 6800
+    },
+    {
+     "id": "havo_filtri",
+     "km": 12000,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 12000
+    },
+    {
+     "id": "salon_filtri",
+     "km": 15000,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 15000
+    },
+    {
+     "id": "tormoz_kolodka",
+     "km": 30000,
+     "months": null,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 30000
+    },
+    {
+     "id": "svecha",
+     "km": 18000,
+     "months": null,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 18000
+    },
+    {
+     "id": "antifriz",
+     "km": 60000,
+     "months": 36,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 60000
+    },
+    {
+     "id": "grm_remni",
+     "km": 60000,
+     "months": 48,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 60000
+    },
+    {
+     "id": "akkumulyator",
+     "km": null,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "texnik_korik",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "osago",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "metan_ballon",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "shina",
+     "km": null,
+     "months": null,
+     "calendar": false,
+     "season": [
+      [
+       11,
+       15
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "off": false,
+     "base_km": null
+    }
+   ]
+  },
+  {
+   "model": "malibu",
+   "fuel": "benzin",
+   "usage": "taksi",
+   "out": [
+    {
+     "id": "motor_moyi",
+     "km": 7000,
+     "months": 6,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 6400
+    },
+    {
+     "id": "moy_filtri",
+     "km": 6400,
+     "months": 6,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 6400
+    },
+    {
+     "id": "havo_filtri",
+     "km": 12000,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 12000
+    },
+    {
+     "id": "salon_filtri",
+     "km": 12000,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 12000
+    },
+    {
+     "id": "tormoz_kolodka",
+     "km": 21000,
+     "months": null,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 21000
+    },
+    {
+     "id": "svecha",
+     "km": 25500,
+     "months": null,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 25500
+    },
+    {
+     "id": "antifriz",
+     "km": 60000,
+     "months": 36,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 60000
+    },
+    {
+     "id": "akkumulyator",
+     "km": null,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "texnik_korik",
+     "km": null,
+     "months": 6,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "osago",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "shina",
+     "km": null,
+     "months": null,
+     "calendar": false,
+     "season": [
+      [
+       11,
+       15
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "off": false,
+     "base_km": null
+    }
+   ]
+  },
+  {
+   "model": "byd_song",
+   "fuel": "elektr",
+   "usage": "shaxsiy",
+   "out": [
+    {
+     "id": "salon_filtri",
+     "km": 15000,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 15000
+    },
+    {
+     "id": "tormoz_kolodka",
+     "km": 30000,
+     "months": null,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 30000
+    },
+    {
+     "id": "antifriz",
+     "km": 60000,
+     "months": 36,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": 60000
+    },
+    {
+     "id": "akkumulyator",
+     "km": null,
+     "months": 12,
+     "calendar": false,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "texnik_korik",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "osago",
+     "km": null,
+     "months": 12,
+     "calendar": true,
+     "season": null,
+     "off": false,
+     "base_km": null
+    },
+    {
+     "id": "shina",
+     "km": null,
+     "months": null,
+     "calendar": false,
+     "season": [
+      [
+       11,
+       15
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "off": false,
+     "base_km": null
+    }
+   ]
+  }
+ ],
+ "season": [
+  {
+   "day": 20772,
+   "out": [
+    20892,
+    "summer"
+   ]
+  },
+  {
+   "day": 20773,
+   "out": [
+    20892,
+    "summer"
+   ]
+  },
+  {
+   "day": 20774,
+   "out": [
+    20892,
+    "summer"
+   ]
+  },
+  {
+   "day": 20892,
+   "out": [
+    21137,
+    "winter"
+   ]
+  },
+  {
+   "day": 20893,
+   "out": [
+    21137,
+    "winter"
+   ]
+  },
+  {
+   "day": 20818,
+   "out": [
+    20892,
+    "summer"
+   ]
+  }
+ ],
+ "status": [
+  {
+   "it": {
+    "id": "motor_moyi",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "motor_moyi",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 87700,
+    "due_day": 20786,
+    "km_left": 540,
+    "days_left": 11,
+    "lo_day": 20783,
+    "hi_day": 20792,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "motor_moyi",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "motor_moyi",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 92800,
+    "due_day": 20759,
+    "km_left": 5640,
+    "days_left": -16,
+    "lo_day": 20759,
+    "hi_day": 20759,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "motor_moyi",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "motor_moyi",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 76800,
+    "due_day": 20775,
+    "km_left": -10360,
+    "days_left": 0,
+    "lo_day": 20775,
+    "hi_day": 20775,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "moy_filtri",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "moy_filtri",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 87700,
+    "due_day": 20786,
+    "km_left": 540,
+    "days_left": 11,
+    "lo_day": 20783,
+    "hi_day": 20792,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "moy_filtri",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "moy_filtri",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 92800,
+    "due_day": 20759,
+    "km_left": 5640,
+    "days_left": -16,
+    "lo_day": 20759,
+    "hi_day": 20759,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "moy_filtri",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "moy_filtri",
+    "km_iv": 6800,
+    "months": 6,
+    "due_km": 76800,
+    "due_day": 20775,
+    "km_left": -10360,
+    "days_left": 0,
+    "lo_day": 20775,
+    "hi_day": 20775,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "havo_filtri",
+    "km": 12000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 12000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "havo_filtri",
+    "km_iv": 12000,
+    "months": 12,
+    "due_km": 92900,
+    "due_day": 20886,
+    "km_left": 5740,
+    "days_left": 111,
+    "lo_day": 20857,
+    "hi_day": 20948,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "havo_filtri",
+    "km": 12000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 12000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "havo_filtri",
+    "km_iv": 12000,
+    "months": 12,
+    "due_km": 98000,
+    "due_day": 20940,
+    "km_left": 10840,
+    "days_left": 165,
+    "lo_day": 20929,
+    "hi_day": 20940,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "havo_filtri",
+    "km": 12000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 12000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "havo_filtri",
+    "km_iv": 12000,
+    "months": 12,
+    "due_km": 82000,
+    "due_day": 20775,
+    "km_left": -5160,
+    "days_left": 0,
+    "lo_day": 20775,
+    "hi_day": 20775,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "salon_filtri",
+    "km": 15000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 15000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "salon_filtri",
+    "km_iv": 15000,
+    "months": 12,
+    "due_km": 95900,
+    "due_day": 20944,
+    "km_left": 8740,
+    "days_left": 169,
+    "lo_day": 20899,
+    "hi_day": 21038,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "salon_filtri",
+    "km": 15000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 15000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "salon_filtri",
+    "km_iv": 15000,
+    "months": 12,
+    "due_km": 101000,
+    "due_day": 20940,
+    "km_left": 13840,
+    "days_left": 165,
+    "lo_day": 20940,
+    "hi_day": 20940,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "salon_filtri",
+    "km": 15000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 15000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "salon_filtri",
+    "km_iv": 15000,
+    "months": 12,
+    "due_km": 85000,
+    "due_day": 20775,
+    "km_left": -2160,
+    "days_left": 0,
+    "lo_day": 20775,
+    "hi_day": 20775,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "due"
+   }
+  },
+  {
+   "it": {
+    "id": "tormoz_kolodka",
+    "km": 30000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 30000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "tormoz_kolodka",
+    "km_iv": 30000,
+    "months": null,
+    "due_km": 110900,
+    "due_day": 21232,
+    "km_left": 23740,
+    "days_left": 457,
+    "lo_day": 21111,
+    "hi_day": 21489,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "tormoz_kolodka",
+    "km": 30000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 30000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "tormoz_kolodka",
+    "km_iv": 30000,
+    "months": null,
+    "due_km": 116000,
+    "due_day": 21330,
+    "km_left": 28840,
+    "days_left": 555,
+    "lo_day": 21183,
+    "hi_day": 21642,
+    "basis": "km",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "tormoz_kolodka",
+    "km": 30000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 30000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "tormoz_kolodka",
+    "km_iv": 30000,
+    "months": null,
+    "due_km": 100000,
+    "due_day": 21022,
+    "km_left": 12840,
+    "days_left": 247,
+    "lo_day": 20957,
+    "hi_day": 21161,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "svecha",
+    "km": 18000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 18000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "svecha",
+    "km_iv": 18000,
+    "months": null,
+    "due_km": 98900,
+    "due_day": 21001,
+    "km_left": 11740,
+    "days_left": 226,
+    "lo_day": 20942,
+    "hi_day": 21128,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "svecha",
+    "km": 18000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 18000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "svecha",
+    "km_iv": 18000,
+    "months": null,
+    "due_km": 104000,
+    "due_day": 21099,
+    "km_left": 16840,
+    "days_left": 324,
+    "lo_day": 21014,
+    "hi_day": 21282,
+    "basis": "km",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "svecha",
+    "km": 18000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 18000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "svecha",
+    "km_iv": 18000,
+    "months": null,
+    "due_km": 88000,
+    "due_day": 20792,
+    "km_left": 840,
+    "days_left": 17,
+    "lo_day": 20787,
+    "hi_day": 20801,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "antifriz",
+    "km": 60000,
+    "months": 36,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "antifriz",
+    "km_iv": 60000,
+    "months": 36,
+    "due_km": 140900,
+    "due_day": 21809,
+    "km_left": 53740,
+    "days_left": 1034,
+    "lo_day": 21535,
+    "hi_day": 21866,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "antifriz",
+    "km": 60000,
+    "months": 36,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "antifriz",
+    "km_iv": 60000,
+    "months": 36,
+    "due_km": 146000,
+    "due_day": 21671,
+    "km_left": 58840,
+    "days_left": 896,
+    "lo_day": 21608,
+    "hi_day": 21671,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "antifriz",
+    "km": 60000,
+    "months": 36,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "antifriz",
+    "km_iv": 60000,
+    "months": 36,
+    "due_km": 130000,
+    "due_day": 21599,
+    "km_left": 42840,
+    "days_left": 824,
+    "lo_day": 21381,
+    "hi_day": 21841,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "grm_remni",
+    "km": 60000,
+    "months": 48,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 80900,
+    "day": 20770,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "grm_remni",
+    "km_iv": 60000,
+    "months": 48,
+    "due_km": 140900,
+    "due_day": 21809,
+    "km_left": 53740,
+    "days_left": 1034,
+    "lo_day": 21535,
+    "hi_day": 22231,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 80900,
+    "last_day": 20770,
+    "cycle": "80900:20770",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "grm_remni",
+    "km": 60000,
+    "months": 48,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 86000,
+    "day": 20575,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "grm_remni",
+    "km_iv": 60000,
+    "months": 48,
+    "due_km": 146000,
+    "due_day": 21907,
+    "km_left": 58840,
+    "days_left": 1132,
+    "lo_day": 21608,
+    "hi_day": 22036,
+    "basis": "km",
+    "guess": true,
+    "season": null,
+    "last_km": 86000,
+    "last_day": 20575,
+    "cycle": "86000:20575",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "grm_remni",
+    "km": 60000,
+    "months": 48,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "last": {
+    "km": 70000,
+    "day": 20745,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "grm_remni",
+    "km_iv": 60000,
+    "months": 48,
+    "due_km": 130000,
+    "due_day": 21599,
+    "km_left": 42840,
+    "days_left": 824,
+    "lo_day": 21381,
+    "hi_day": 22063,
+    "basis": "km",
+    "guess": false,
+    "season": null,
+    "last_km": 70000,
+    "last_day": 20745,
+    "cycle": "70000:20745",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "akkumulyator",
+    "km": null,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": null,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "akkumulyator",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": null,
+    "km_left": null,
+    "days_left": null,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": null,
+    "last_day": null,
+    "cycle": "-:None",
+    "state": "unknown"
+   }
+  },
+  {
+   "it": {
+    "id": "akkumulyator",
+    "km": null,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": 20435,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "akkumulyator",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": 20800,
+    "km_left": null,
+    "days_left": 25,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": false,
+    "season": null,
+    "last_km": null,
+    "last_day": 20435,
+    "cycle": "-:20435",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "texnik_korik",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": null,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "texnik_korik",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": null,
+    "km_left": null,
+    "days_left": null,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": null,
+    "last_day": null,
+    "cycle": "-:None",
+    "state": "unknown"
+   }
+  },
+  {
+   "it": {
+    "id": "texnik_korik",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": 20435,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "texnik_korik",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": 20800,
+    "km_left": null,
+    "days_left": 25,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": false,
+    "season": null,
+    "last_km": null,
+    "last_day": 20435,
+    "cycle": "-:20435",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "osago",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": null,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "osago",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": null,
+    "km_left": null,
+    "days_left": null,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": null,
+    "last_day": null,
+    "cycle": "-:None",
+    "state": "unknown"
+   }
+  },
+  {
+   "it": {
+    "id": "osago",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": 20435,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "osago",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": 20800,
+    "km_left": null,
+    "days_left": 25,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": false,
+    "season": null,
+    "last_km": null,
+    "last_day": 20435,
+    "cycle": "-:20435",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "metan_ballon",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": null,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "metan_ballon",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": null,
+    "km_left": null,
+    "days_left": null,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": true,
+    "season": null,
+    "last_km": null,
+    "last_day": null,
+    "cycle": "-:None",
+    "state": "unknown"
+   }
+  },
+  {
+   "it": {
+    "id": "metan_ballon",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": 20435,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "metan_ballon",
+    "km_iv": null,
+    "months": 12,
+    "due_km": null,
+    "due_day": 20800,
+    "km_left": null,
+    "days_left": 25,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": false,
+    "season": null,
+    "last_km": null,
+    "last_day": 20435,
+    "cycle": "-:20435",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "shina",
+    "km": null,
+    "months": null,
+    "calendar": false,
+    "season": [
+     [
+      11,
+      15
+     ],
+     [
+      3,
+      15
+     ]
+    ],
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": null,
+    "guess": true
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "shina",
+    "km_iv": null,
+    "months": null,
+    "due_km": null,
+    "due_day": 20892,
+    "km_left": null,
+    "days_left": 117,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": true,
+    "season": "summer",
+    "last_km": null,
+    "last_day": null,
+    "cycle": "20892",
+    "state": "ok"
+   }
+  },
+  {
+   "it": {
+    "id": "shina",
+    "km": null,
+    "months": null,
+    "calendar": false,
+    "season": [
+     [
+      11,
+      15
+     ],
+     [
+      3,
+      15
+     ]
+    ],
+    "off": false,
+    "base_km": null
+   },
+   "last": {
+    "km": null,
+    "day": 20435,
+    "guess": false
+   },
+   "fc": {
+    "rate": 52000,
+    "lo": 33280,
+    "hi": 70720,
+    "n": 1,
+    "margin": 36,
+    "day": 20775,
+    "km": 87160
+   },
+   "out": {
+    "id": "shina",
+    "km_iv": null,
+    "months": null,
+    "due_km": null,
+    "due_day": 20527,
+    "km_left": null,
+    "days_left": -248,
+    "lo_day": null,
+    "hi_day": null,
+    "basis": "date",
+    "guess": false,
+    "season": "summer",
+    "last_km": null,
+    "last_day": 20435,
+    "cycle": "20527",
+    "state": "due"
+   }
+  }
+ ],
+ "default_last": [
+  {
+   "it": {
+    "id": "motor_moyi",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "out": {
+    "km": 81600,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "motor_moyi",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "out": {
+    "km": 80900,
+    "day": 20775,
+    "guess": false
+   }
+  },
+  {
+   "it": {
+    "id": "moy_filtri",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "out": {
+    "km": 81600,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "moy_filtri",
+    "km": 6800,
+    "months": 6,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 6800
+   },
+   "out": {
+    "km": 80900,
+    "day": 20775,
+    "guess": false
+   }
+  },
+  {
+   "it": {
+    "id": "havo_filtri",
+    "km": 12000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 12000
+   },
+   "out": {
+    "km": 84000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "havo_filtri",
+    "km": 12000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 12000
+   },
+   "out": {
+    "km": 84000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "salon_filtri",
+    "km": 15000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 15000
+   },
+   "out": {
+    "km": 75000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "salon_filtri",
+    "km": 15000,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 15000
+   },
+   "out": {
+    "km": 75000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "tormoz_kolodka",
+    "km": 30000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 30000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "tormoz_kolodka",
+    "km": 30000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 30000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "svecha",
+    "km": 18000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 18000
+   },
+   "out": {
+    "km": 72000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "svecha",
+    "km": 18000,
+    "months": null,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 18000
+   },
+   "out": {
+    "km": 72000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "antifriz",
+    "km": 60000,
+    "months": 36,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "antifriz",
+    "km": 60000,
+    "months": 36,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "grm_remni",
+    "km": 60000,
+    "months": 48,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "grm_remni",
+    "km": 60000,
+    "months": 48,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": 60000
+   },
+   "out": {
+    "km": 60000,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "akkumulyator",
+    "km": null,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "akkumulyator",
+    "km": null,
+    "months": 12,
+    "calendar": false,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": 20775,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "texnik_korik",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "texnik_korik",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "osago",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "osago",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "metan_ballon",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "metan_ballon",
+    "km": null,
+    "months": 12,
+    "calendar": true,
+    "season": null,
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "shina",
+    "km": null,
+    "months": null,
+    "calendar": false,
+    "season": [
+     [
+      11,
+      15
+     ],
+     [
+      3,
+      15
+     ]
+    ],
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  },
+  {
+   "it": {
+    "id": "shina",
+    "km": null,
+    "months": null,
+    "calendar": false,
+    "season": [
+     [
+      11,
+      15
+     ],
+     [
+      3,
+      15
+     ]
+    ],
+    "off": false,
+    "base_km": null
+   },
+   "out": {
+    "km": null,
+    "day": null,
+    "guess": true
+   }
+  }
+ ],
+ "override": [
+  {
+   "in": [
+    7000,
+    null
+   ],
+   "out": {
+    "ok": {
+     "km": 7000
+    }
+   }
+  },
+  {
+   "in": [
+    "6000",
+    4
+   ],
+   "out": {
+    "ok": {
+     "km": 6000,
+     "months": 4
+    }
+   }
+  },
+  {
+   "in": [
+    100,
+    null
+   ],
+   "out": {
+    "error": "interval"
+   }
+  },
+  {
+   "in": [
+    null,
+    null
+   ],
+   "out": {
+    "error": "interval"
+   }
+  },
+  {
+   "in": [
+    null,
+    200
+   ],
+   "out": {
+    "error": "interval"
+   }
+  }
+ ],
+ "record": [
+  {
+   "in": {
+    "items": [
+     "moy_filtri",
+     "motor_moyi"
+    ],
+    "km": 87290,
+    "labour": 60000,
+    "parts": "405000",
+    "note": " Moy 5W-30 ",
+    "day": "today"
+   },
+   "out": {
+    "ok": {
+     "items": [
+      "motor_moyi",
+      "moy_filtri"
+     ],
+     "day": 20775,
+     "km": 87290,
+     "labour": 60000,
+     "parts": 405000,
+     "note": "Moy 5W-30",
+     "shop": ""
+    }
+   }
+  },
+  {
+   "in": {
+    "items": [],
+    "km": 1
+   },
+   "out": {
+    "error": "items"
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "x"
+    ],
+    "km": 1
+   },
+   "out": {
+    "error": "items"
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "motor_moyi",
+     "motor_moyi"
+    ],
+    "km": 1
+   },
+   "out": {
+    "error": "items"
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "motor_moyi"
+    ],
+    "km": 1,
+    "labour": -1
+   },
+   "out": {
+    "error": "money"
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "motor_moyi"
+    ],
+    "km": 1,
+    "day": "yesterday",
+    "labour": null
+   },
+   "out": {
+    "ok": {
+     "items": [
+      "motor_moyi"
+     ],
+     "day": 20774,
+     "km": 1,
+     "labour": 0,
+     "parts": 0,
+     "note": "",
+     "shop": ""
+    }
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "motor_moyi"
+    ],
+    "km": 1,
+    "day": "01.01.2010"
+   },
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": {
+    "items": [
+     "motor_moyi"
+    ],
+    "km": 1,
+    "day": 20776
+   },
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": null,
+   "out": {
+    "error": "generic"
+   }
+  }
+ ],
+ "day_of": [
+  {
+   "in": "today",
+   "ahead": 0,
+   "out": {
+    "ok": 20775
+   }
+  },
+  {
+   "in": "today",
+   "ahead": 365,
+   "out": {
+    "ok": 20775
+   }
+  },
+  {
+   "in": "yesterday",
+   "ahead": 0,
+   "out": {
+    "ok": 20774
+   }
+  },
+  {
+   "in": "yesterday",
+   "ahead": 365,
+   "out": {
+    "ok": 20774
+   }
+  },
+  {
+   "in": "12.11.2026",
+   "ahead": 0,
+   "out": {
+    "ok": 20769
+   }
+  },
+  {
+   "in": "12.11.2026",
+   "ahead": 365,
+   "out": {
+    "ok": 20769
+   }
+  },
+  {
+   "in": "1.1.2027",
+   "ahead": 0,
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": "1.1.2027",
+   "ahead": 365,
+   "out": {
+    "ok": 20819
+   }
+  },
+  {
+   "in": 17124,
+   "ahead": 0,
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": 17124,
+   "ahead": 365,
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": "x",
+   "ahead": 0,
+   "out": {
+    "error": "date"
+   }
+  },
+  {
+   "in": "x",
+   "ahead": 365,
+   "out": {
+    "error": "date"
+   }
+  }
+ ],
+ "spending": [
+  {
+   "recs": [
+    {
+     "day": 20375,
+     "items": [
+      "motor_moyi"
+     ],
+     "labour": 40000,
+     "parts": 300000
+    },
+    {
+     "day": 20755,
+     "items": [
+      "motor_moyi",
+      "moy_filtri",
+      "havo_filtri"
+     ],
+     "labour": 61000,
+     "parts": 405000
+    },
+    {
+     "day": 20775,
+     "items": [
+      "shina"
+     ],
+     "labour": 80000,
+     "parts": 0
+    }
+   ],
+   "m": 1,
+   "out": {
+    "months": [
+     {
+      "y": 2026,
+      "m": 11,
+      "total": 80000
+     }
+    ],
+    "items": [
+     {
+      "id": "motor_moyi",
+      "total": 495334
+     },
+     {
+      "id": "havo_filtri",
+      "total": 155333
+     },
+     {
+      "id": "moy_filtri",
+      "total": 155333
+     },
+     {
+      "id": "shina",
+      "total": 80000
+     }
+    ],
+    "total": 886000,
+    "labour": 181000,
+    "parts": 705000,
+    "n": 3
+   }
+  },
+  {
+   "recs": [
+    {
+     "day": 20375,
+     "items": [
+      "motor_moyi"
+     ],
+     "labour": 40000,
+     "parts": 300000
+    },
+    {
+     "day": 20755,
+     "items": [
+      "motor_moyi",
+      "moy_filtri",
+      "havo_filtri"
+     ],
+     "labour": 61000,
+     "parts": 405000
+    },
+    {
+     "day": 20775,
+     "items": [
+      "shina"
+     ],
+     "labour": 80000,
+     "parts": 0
+    }
+   ],
+   "m": 12,
+   "out": {
+    "months": [
+     {
+      "y": 2025,
+      "m": 12,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 1,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 2,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 3,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 4,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 5,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 6,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 7,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 8,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 9,
+      "total": 0
+     },
+     {
+      "y": 2026,
+      "m": 10,
+      "total": 466000
+     },
+     {
+      "y": 2026,
+      "m": 11,
+      "total": 80000
+     }
+    ],
+    "items": [
+     {
+      "id": "motor_moyi",
+      "total": 495334
+     },
+     {
+      "id": "havo_filtri",
+      "total": 155333
+     },
+     {
+      "id": "moy_filtri",
+      "total": 155333
+     },
+     {
+      "id": "shina",
+      "total": 80000
+     }
+    ],
+    "total": 886000,
+    "labour": 181000,
+    "parts": 705000,
+    "n": 3
+   }
+  }
+ ],
+ "per_km": [
+  {
+   "t": 545000,
+   "km": 390,
+   "out": 1397
+  },
+  {
+   "t": 1,
+   "km": 99,
+   "out": null
+  },
+  {
+   "t": 6000000,
+   "km": 28697,
+   "out": 209
+  }
+ ],
+ "csv": {
+  "rows": [
+   [
+    "Sana",
+    "Km"
+   ],
+   [
+    "=1+1",
+    "a\"b,c"
+   ],
+   [
+    "-5",
+    "x;y"
+   ],
+   [
+    "@x",
+    "ok"
+   ]
+  ],
+  "out": "Sana,Km\r\n'=1+1,\"a\"\"b,c\"\r\n'-5,\"x;y\"\r\n'@x,ok\r\n"
+ },
+ "token": {
+  "seed": "123456:TEST-ONLY",
+  "secret": "7392aa42ba645a2c2589853d0df5f4c826d7bc522e7022186d60da0c2d725a9b",
+  "made": [
+   {
+    "nonce": "000102030405060708090a0b",
+    "token": "AAECAwQFBgcICQoLZdap2doPlCE1ZBpw"
+   },
+   {
+    "nonce": "ffffffffffffffffffffffff",
+    "token": "________________8D9Z2-7ehE9NSrad"
+   },
+   {
+    "nonce": "706173706f72742d30303031",
+    "token": "cGFzcG9ydC0wMDAxFwY9yUpDg69XvfIU"
+   }
+  ],
+  "check": [
+   {
+    "in": "AAECAwQFBgcICQoLZdap2doPlCE1ZBpw",
+    "out": "000102030405060708090a0b"
+   },
+   {
+    "in": "AAECAwQFBgcICQoLZdap2doPlCE1ZBpA",
+    "out": null
+   },
+   {
+    "in": "AAECAwQFBgcICQoLZdap2doPlCE1ZBp",
+    "out": null
+   },
+   {
+    "in": "AAECAwQFBgcICQoLZdap2doPlCE1ZBpwx",
+    "out": null
+   },
+   {
+    "in": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "out": null
+   },
+   {
+    "in": null,
+    "out": null
+   },
+   {
+    "in": 5,
+    "out": null
+   },
+   {
+    "in": "",
+    "out": null
+   }
+  ]
+ },
+ "keys": [
+  {
+   "st": [
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 87700,
+     "due_day": 20786,
+     "km_left": 540,
+     "days_left": 11,
+     "lo_day": 20783,
+     "hi_day": 20792,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 80900,
+     "last_day": 20770,
+     "cycle": "80900:20770",
+     "state": "ok"
+    },
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 92800,
+     "due_day": 20759,
+     "km_left": 5640,
+     "days_left": -16,
+     "lo_day": 20759,
+     "hi_day": 20759,
+     "basis": "date",
+     "guess": true,
+     "season": null,
+     "last_km": 86000,
+     "last_day": 20575,
+     "cycle": "86000:20575",
+     "state": "due"
+    },
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 76800,
+     "due_day": 20775,
+     "km_left": -10360,
+     "days_left": 0,
+     "lo_day": 20775,
+     "hi_day": 20775,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 70000,
+     "last_day": 20745,
+     "cycle": "70000:20745",
+     "state": "due"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 87700,
+     "due_day": 20786,
+     "km_left": 540,
+     "days_left": 11,
+     "lo_day": 20783,
+     "hi_day": 20792,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 80900,
+     "last_day": 20770,
+     "cycle": "80900:20770",
+     "state": "ok"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 92800,
+     "due_day": 20759,
+     "km_left": 5640,
+     "days_left": -16,
+     "lo_day": 20759,
+     "hi_day": 20759,
+     "basis": "date",
+     "guess": true,
+     "season": null,
+     "last_km": 86000,
+     "last_day": 20575,
+     "cycle": "86000:20575",
+     "state": "due"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 76800,
+     "due_day": 20775,
+     "km_left": -10360,
+     "days_left": 0,
+     "lo_day": 20775,
+     "hi_day": 20775,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 70000,
+     "last_day": 20745,
+     "cycle": "70000:20745",
+     "state": "due"
+    }
+   ],
+   "today": 20775,
+   "last": 20774,
+   "out": [
+    {
+     "key": "motor_moyi:86000:20575:late2",
+     "item": "motor_moyi",
+     "kind": "late"
+    },
+    {
+     "key": "motor_moyi:70000:20745:due",
+     "item": "motor_moyi",
+     "kind": "due"
+    },
+    {
+     "key": "moy_filtri:86000:20575:late2",
+     "item": "moy_filtri",
+     "kind": "late"
+    },
+    {
+     "key": "moy_filtri:70000:20745:due",
+     "item": "moy_filtri",
+     "kind": "due"
+    }
+   ]
+  },
+  {
+   "st": [
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 87700,
+     "due_day": 20786,
+     "km_left": 540,
+     "days_left": 11,
+     "lo_day": 20783,
+     "hi_day": 20792,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 80900,
+     "last_day": 20770,
+     "cycle": "80900:20770",
+     "state": "ok"
+    },
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 92800,
+     "due_day": 20759,
+     "km_left": 5640,
+     "days_left": -16,
+     "lo_day": 20759,
+     "hi_day": 20759,
+     "basis": "date",
+     "guess": true,
+     "season": null,
+     "last_km": 86000,
+     "last_day": 20575,
+     "cycle": "86000:20575",
+     "state": "due"
+    },
+    {
+     "id": "motor_moyi",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 76800,
+     "due_day": 20775,
+     "km_left": -10360,
+     "days_left": 0,
+     "lo_day": 20775,
+     "hi_day": 20775,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 70000,
+     "last_day": 20745,
+     "cycle": "70000:20745",
+     "state": "due"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 87700,
+     "due_day": 20786,
+     "km_left": 540,
+     "days_left": 11,
+     "lo_day": 20783,
+     "hi_day": 20792,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 80900,
+     "last_day": 20770,
+     "cycle": "80900:20770",
+     "state": "ok"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 92800,
+     "due_day": 20759,
+     "km_left": 5640,
+     "days_left": -16,
+     "lo_day": 20759,
+     "hi_day": 20759,
+     "basis": "date",
+     "guess": true,
+     "season": null,
+     "last_km": 86000,
+     "last_day": 20575,
+     "cycle": "86000:20575",
+     "state": "due"
+    },
+    {
+     "id": "moy_filtri",
+     "km_iv": 6800,
+     "months": 6,
+     "due_km": 76800,
+     "due_day": 20775,
+     "km_left": -10360,
+     "days_left": 0,
+     "lo_day": 20775,
+     "hi_day": 20775,
+     "basis": "km",
+     "guess": false,
+     "season": null,
+     "last_km": 70000,
+     "last_day": 20745,
+     "cycle": "70000:20745",
+     "state": "due"
+    }
+   ],
+   "today": 20775,
+   "last": 20761,
+   "out": [
+    {
+     "key": "motor_moyi:86000:20575:late2",
+     "item": "motor_moyi",
+     "kind": "late"
+    },
+    {
+     "key": "motor_moyi:70000:20745:due",
+     "item": "motor_moyi",
+     "kind": "due"
+    },
+    {
+     "key": "moy_filtri:86000:20575:late2",
+     "item": "moy_filtri",
+     "kind": "late"
+    },
+    {
+     "key": "moy_filtri:70000:20745:due",
+     "item": "moy_filtri",
+     "kind": "due"
+    },
+    {
+     "key": "ask:20761",
+     "item": null,
+     "kind": "ask"
+    }
+   ]
+  }
+ ],
+ "world": {
+  "1795000000000": {
+   "world": {
+    "today": 20775,
+    "users": [
+     {
+      "id": -101,
+      "name": "Jasur Karimov",
+      "phone": "+998 90 000 12 34"
+     },
+     {
+      "id": -201,
+      "name": "Bekzod Aliyev",
+      "phone": "+998 93 000 45 67"
+     },
+     {
+      "id": -301,
+      "name": "Sherzod Qodirov",
+      "phone": "+998 97 000 78 90"
+     },
+     {
+      "id": -901,
+      "name": "Admin",
+      "phone": ""
+     },
+     {
+      "id": -202,
+      "name": "Otabek Nurmatov",
+      "phone": ""
+     },
+     {
+      "id": -203,
+      "name": "Sanjar Xolmatov",
+      "phone": ""
+     },
+     {
+      "id": -102,
+      "name": "Dilshod Rahimov",
+      "phone": ""
+     },
+     {
+      "id": -103,
+      "name": "Madina Yusupova",
+      "phone": ""
+     },
+     {
+      "id": -104,
+      "name": "Rustam Ergashev",
+      "phone": ""
+     },
+     {
+      "id": -105,
+      "name": "Nigora Saidova",
+      "phone": ""
+     },
+     {
+      "id": -106,
+      "name": "Akmal Tursunov",
+      "phone": ""
+     },
+     {
+      "id": -107,
+      "name": "Kamola Nazarova",
+      "phone": ""
+     }
+    ],
+    "workshops": [
+     {
+      "id": 1,
+      "owner": -201,
+      "name": "Turbo Servis",
+      "district": "Chilonzor",
+      "address": "Chilonzor, Bunyodkor ko'chasi 21"
+     },
+     {
+      "id": 2,
+      "owner": -202,
+      "name": "Avto Doktor",
+      "district": "Yunusobod",
+      "address": "Yunusobod 4-mavze, Amir Temur 108"
+     },
+     {
+      "id": 3,
+      "owner": -203,
+      "name": "Motor Plus",
+      "district": "Sergeli",
+      "address": "Sergeli, Yangi Sergeli 7"
+     }
+    ],
+    "cars": [
+     {
+      "id": 1,
+      "owner": -101,
+      "model": "nexia3",
+      "name": "",
+      "year": 2019,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 A 254 JK",
+      "created_day": 20045,
+      "code": "SEED0001"
+     },
+     {
+      "id": 2,
+      "owner": -102,
+      "model": "gentra",
+      "name": "",
+      "year": 2020,
+      "fuel": "metan",
+      "usage": "taksi",
+      "plate": "01 B 482 KA",
+      "created_day": 20355,
+      "code": "SEED0002"
+     },
+     {
+      "id": 3,
+      "owner": -103,
+      "model": "spark",
+      "name": "",
+      "year": 2019,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 C 317 MB",
+      "created_day": 20392,
+      "code": "SEED0003"
+     },
+     {
+      "id": 4,
+      "owner": -104,
+      "model": "damas",
+      "name": "",
+      "year": 2017,
+      "fuel": "metan",
+      "usage": "taksi",
+      "plate": "10 D 905 RA",
+      "created_day": 20429,
+      "code": "SEED0004"
+     },
+     {
+      "id": 5,
+      "owner": -105,
+      "model": "malibu",
+      "name": "",
+      "year": 2022,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 E 777 NS",
+      "created_day": 20466,
+      "code": "SEED0005"
+     },
+     {
+      "id": 6,
+      "owner": -106,
+      "model": "byd_chazor",
+      "name": "",
+      "year": 2025,
+      "fuel": "gibrid",
+      "usage": "shaxsiy",
+      "plate": "01 F 120 AT",
+      "created_day": 20503,
+      "code": "SEED0006"
+     },
+     {
+      "id": 7,
+      "owner": -107,
+      "model": "tracker",
+      "name": "",
+      "year": 2023,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 G 641 KN",
+      "created_day": 20540,
+      "code": "SEED0007"
+     }
+    ],
+    "readings": [
+     {
+      "car_id": 1,
+      "day": 20045,
+      "km": 61000
+     },
+     {
+      "car_id": 1,
+      "day": 20054,
+      "km": 61383
+     },
+     {
+      "car_id": 1,
+      "day": 20064,
+      "km": 61793
+     },
+     {
+      "car_id": 1,
+      "day": 20075,
+      "km": 62298
+     },
+     {
+      "car_id": 1,
+      "day": 20087,
+      "km": 62829
+     },
+     {
+      "car_id": 1,
+      "day": 20100,
+      "km": 63298
+     },
+     {
+      "car_id": 1,
+      "day": 20114,
+      "km": 63780
+     },
+     {
+      "car_id": 1,
+      "day": 20129,
+      "km": 64370
+     },
+     {
+      "car_id": 1,
+      "day": 20145,
+      "km": 64973
+     },
+     {
+      "car_id": 1,
+      "day": 20151,
+      "km": 65157
+     },
+     {
+      "car_id": 1,
+      "day": 20158,
+      "km": 65360
+     },
+     {
+      "car_id": 1,
+      "day": 20172,
+      "km": 65807
+     },
+     {
+      "car_id": 1,
+      "day": 20185,
+      "km": 66244
+     },
+     {
+      "car_id": 1,
+      "day": 20197,
+      "km": 66588
+     },
+     {
+      "car_id": 1,
+      "day": 20208,
+      "km": 66921
+     },
+     {
+      "car_id": 1,
+      "day": 20215,
+      "km": 67274
+     },
+     {
+      "car_id": 1,
+      "day": 20221,
+      "km": 67586
+     },
+     {
+      "car_id": 1,
+      "day": 20237,
+      "km": 68340
+     },
+     {
+      "car_id": 1,
+      "day": 20252,
+      "km": 69071
+     },
+     {
+      "car_id": 1,
+      "day": 20263,
+      "km": 69553
+     },
+     {
+      "car_id": 1,
+      "day": 20273,
+      "km": 70008
+     },
+     {
+      "car_id": 1,
+      "day": 20285,
+      "km": 70460
+     },
+     {
+      "car_id": 1,
+      "day": 20298,
+      "km": 70929
+     },
+     {
+      "car_id": 1,
+      "day": 20308,
+      "km": 71273
+     },
+     {
+      "car_id": 1,
+      "day": 20319,
+      "km": 71633
+     },
+     {
+      "car_id": 1,
+      "day": 20327,
+      "km": 71882
+     },
+     {
+      "car_id": 1,
+      "day": 20336,
+      "km": 72147
+     },
+     {
+      "car_id": 1,
+      "day": 20342,
+      "km": 72464
+     },
+     {
+      "car_id": 1,
+      "day": 20349,
+      "km": 72822
+     },
+     {
+      "car_id": 1,
+      "day": 20358,
+      "km": 73279
+     },
+     {
+      "car_id": 1,
+      "day": 20368,
+      "km": 73771
+     },
+     {
+      "car_id": 1,
+      "day": 20374,
+      "km": 73997
+     },
+     {
+      "car_id": 1,
+      "day": 20390,
+      "km": 74626
+     },
+     {
+      "car_id": 1,
+      "day": 20398,
+      "km": 74954
+     },
+     {
+      "car_id": 1,
+      "day": 20405,
+      "km": 75252
+     },
+     {
+      "car_id": 1,
+      "day": 20415,
+      "km": 75563
+     },
+     {
+      "car_id": 1,
+      "day": 20424,
+      "km": 75858
+     },
+     {
+      "car_id": 1,
+      "day": 20436,
+      "km": 76271
+     },
+     {
+      "car_id": 1,
+      "day": 20447,
+      "km": 76667
+     },
+     {
+      "car_id": 1,
+      "day": 20456,
+      "km": 77124
+     },
+     {
+      "car_id": 1,
+      "day": 20464,
+      "km": 77543
+     },
+     {
+      "car_id": 1,
+      "day": 20479,
+      "km": 78022
+     },
+     {
+      "car_id": 1,
+      "day": 20495,
+      "km": 78507
+     },
+     {
+      "car_id": 1,
+      "day": 20501,
+      "km": 78718
+     },
+     {
+      "car_id": 1,
+      "day": 20508,
+      "km": 78953
+     },
+     {
+      "car_id": 1,
+      "day": 20519,
+      "km": 79507
+     },
+     {
+      "car_id": 1,
+      "day": 20531,
+      "km": 80092
+     },
+     {
+      "car_id": 1,
+      "day": 20544,
+      "km": 80465
+     },
+     {
+      "car_id": 1,
+      "day": 20558,
+      "km": 81193
+     },
+     {
+      "car_id": 1,
+      "day": 20565,
+      "km": 81508
+     },
+     {
+      "car_id": 1,
+      "day": 20573,
+      "km": 81855
+     },
+     {
+      "car_id": 1,
+      "day": 20586,
+      "km": 82467
+     },
+     {
+      "car_id": 1,
+      "day": 20598,
+      "km": 83052
+     },
+     {
+      "car_id": 1,
+      "day": 20609,
+      "km": 83534
+     },
+     {
+      "car_id": 1,
+      "day": 20619,
+      "km": 83989
+     },
+     {
+      "car_id": 1,
+      "day": 20628,
+      "km": 84247
+     },
+     {
+      "car_id": 1,
+      "day": 20636,
+      "km": 84489
+     },
+     {
+      "car_id": 1,
+      "day": 20643,
+      "km": 84842
+     },
+     {
+      "car_id": 1,
+      "day": 20649,
+      "km": 85154
+     },
+     {
+      "car_id": 1,
+      "day": 20665,
+      "km": 85718
+     },
+     {
+      "car_id": 1,
+      "day": 20680,
+      "km": 86271
+     },
+     {
+      "car_id": 1,
+      "day": 20695,
+      "km": 86750
+     },
+     {
+      "car_id": 1,
+      "day": 20711,
+      "km": 87235
+     },
+     {
+      "car_id": 1,
+      "day": 20724,
+      "km": 87608
+     },
+     {
+      "car_id": 1,
+      "day": 20738,
+      "km": 88336
+     },
+     {
+      "car_id": 1,
+      "day": 20746,
+      "km": 88644
+     },
+     {
+      "car_id": 1,
+      "day": 20755,
+      "km": 88976
+     },
+     {
+      "car_id": 1,
+      "day": 20761,
+      "km": 89187
+     },
+     {
+      "car_id": 1,
+      "day": 20768,
+      "km": 89422
+     },
+     {
+      "car_id": 1,
+      "day": 20773,
+      "km": 89627
+     },
+     {
+      "car_id": 2,
+      "day": 20355,
+      "km": 96000
+     },
+     {
+      "car_id": 2,
+      "day": 20363,
+      "km": 97122
+     },
+     {
+      "car_id": 2,
+      "day": 20370,
+      "km": 98149
+     },
+     {
+      "car_id": 2,
+      "day": 20376,
+      "km": 98911
+     },
+     {
+      "car_id": 2,
+      "day": 20392,
+      "km": 101049
+     },
+     {
+      "car_id": 2,
+      "day": 20407,
+      "km": 103548
+     },
+     {
+      "car_id": 2,
+      "day": 20421,
+      "km": 105973
+     },
+     {
+      "car_id": 2,
+      "day": 20434,
+      "km": 107967
+     },
+     {
+      "car_id": 2,
+      "day": 20446,
+      "km": 109887
+     },
+     {
+      "car_id": 2,
+      "day": 20462,
+      "km": 112896
+     },
+     {
+      "car_id": 2,
+      "day": 20477,
+      "km": 115816
+     },
+     {
+      "car_id": 2,
+      "day": 20486,
+      "km": 117598
+     },
+     {
+      "car_id": 2,
+      "day": 20496,
+      "km": 119512
+     },
+     {
+      "car_id": 2,
+      "day": 20503,
+      "km": 120805
+     },
+     {
+      "car_id": 2,
+      "day": 20511,
+      "km": 122230
+     },
+     {
+      "car_id": 2,
+      "day": 20524,
+      "km": 123838
+     },
+     {
+      "car_id": 2,
+      "day": 20538,
+      "km": 125478
+     },
+     {
+      "car_id": 2,
+      "day": 20549,
+      "km": 127801
+     },
+     {
+      "car_id": 2,
+      "day": 20561,
+      "km": 130256
+     },
+     {
+      "car_id": 2,
+      "day": 20567,
+      "km": 131156
+     },
+     {
+      "car_id": 2,
+      "day": 20574,
+      "km": 132160
+     },
+     {
+      "car_id": 2,
+      "day": 20584,
+      "km": 133843
+     },
+     {
+      "car_id": 2,
+      "day": 20593,
+      "km": 135417
+     },
+     {
+      "car_id": 2,
+      "day": 20601,
+      "km": 136657
+     },
+     {
+      "car_id": 2,
+      "day": 20608,
+      "km": 137788
+     },
+     {
+      "car_id": 2,
+      "day": 20614,
+      "km": 138956
+     },
+     {
+      "car_id": 2,
+      "day": 20630,
+      "km": 142176
+     },
+     {
+      "car_id": 2,
+      "day": 20645,
+      "km": 144898
+     },
+     {
+      "car_id": 2,
+      "day": 20659,
+      "km": 147531
+     },
+     {
+      "car_id": 2,
+      "day": 20672,
+      "km": 149032
+     },
+     {
+      "car_id": 2,
+      "day": 20684,
+      "km": 150497
+     },
+     {
+      "car_id": 2,
+      "day": 20700,
+      "km": 153189
+     },
+     {
+      "car_id": 2,
+      "day": 20706,
+      "km": 154159
+     },
+     {
+      "car_id": 2,
+      "day": 20713,
+      "km": 155429
+     },
+     {
+      "car_id": 2,
+      "day": 20721,
+      "km": 156828
+     },
+     {
+      "car_id": 2,
+      "day": 20733,
+      "km": 158530
+     },
+     {
+      "car_id": 2,
+      "day": 20746,
+      "km": 160288
+     },
+     {
+      "car_id": 2,
+      "day": 20760,
+      "km": 162459
+     },
+     {
+      "car_id": 2,
+      "day": 20773,
+      "km": 164604
+     },
+     {
+      "car_id": 3,
+      "day": 20392,
+      "km": 52000
+     },
+     {
+      "car_id": 3,
+      "day": 20400,
+      "km": 52215
+     },
+     {
+      "car_id": 3,
+      "day": 20409,
+      "km": 52446
+     },
+     {
+      "car_id": 3,
+      "day": 20415,
+      "km": 52592
+     },
+     {
+      "car_id": 3,
+      "day": 20422,
+      "km": 52754
+     },
+     {
+      "car_id": 3,
+      "day": 20434,
+      "km": 53018
+     },
+     {
+      "car_id": 3,
+      "day": 20447,
+      "km": 53533
+     },
+     {
+      "car_id": 3,
+      "day": 20457,
+      "km": 53917
+     },
+     {
+      "car_id": 3,
+      "day": 20468,
+      "km": 54326
+     },
+     {
+      "car_id": 3,
+      "day": 20483,
+      "km": 54865
+     },
+     {
+      "car_id": 3,
+      "day": 20499,
+      "km": 55420
+     },
+     {
+      "car_id": 3,
+      "day": 20507,
+      "km": 55633
+     },
+     {
+      "car_id": 3,
+      "day": 20514,
+      "km": 55828
+     },
+     {
+      "car_id": 3,
+      "day": 20524,
+      "km": 56119
+     },
+     {
+      "car_id": 3,
+      "day": 20533,
+      "km": 56392
+     },
+     {
+      "car_id": 3,
+      "day": 20545,
+      "km": 56652
+     },
+     {
+      "car_id": 3,
+      "day": 20556,
+      "km": 56904
+     },
+     {
+      "car_id": 3,
+      "day": 20570,
+      "km": 57242
+     },
+     {
+      "car_id": 3,
+      "day": 20583,
+      "km": 57572
+     },
+     {
+      "car_id": 3,
+      "day": 20599,
+      "km": 58142
+     },
+     {
+      "car_id": 3,
+      "day": 20614,
+      "km": 58695
+     },
+     {
+      "car_id": 3,
+      "day": 20620,
+      "km": 58854
+     },
+     {
+      "car_id": 3,
+      "day": 20627,
+      "km": 59031
+     },
+     {
+      "car_id": 3,
+      "day": 20635,
+      "km": 59264
+     },
+     {
+      "car_id": 3,
+      "day": 20644,
+      "km": 59515
+     },
+     {
+      "car_id": 3,
+      "day": 20654,
+      "km": 59831
+     },
+     {
+      "car_id": 3,
+      "day": 20665,
+      "km": 60165
+     },
+     {
+      "car_id": 3,
+      "day": 20677,
+      "km": 60574
+     },
+     {
+      "car_id": 3,
+      "day": 20690,
+      "km": 61001
+     },
+     {
+      "car_id": 3,
+      "day": 20699,
+      "km": 61321
+     },
+     {
+      "car_id": 3,
+      "day": 20709,
+      "km": 61665
+     },
+     {
+      "car_id": 3,
+      "day": 20724,
+      "km": 62236
+     },
+     {
+      "car_id": 3,
+      "day": 20738,
+      "km": 62787
+     },
+     {
+      "car_id": 3,
+      "day": 20751,
+      "km": 63250
+     },
+     {
+      "car_id": 3,
+      "day": 20763,
+      "km": 63692
+     },
+     {
+      "car_id": 3,
+      "day": 20771,
+      "km": 63957
+     },
+     {
+      "car_id": 3,
+      "day": 20772,
+      "km": 63988
+     },
+     {
+      "car_id": 4,
+      "day": 20429,
+      "km": 171000
+     },
+     {
+      "car_id": 4,
+      "day": 20435,
+      "km": 171688
+     },
+     {
+      "car_id": 4,
+      "day": 20451,
+      "km": 173614
+     },
+     {
+      "car_id": 4,
+      "day": 20459,
+      "km": 174622
+     },
+     {
+      "car_id": 4,
+      "day": 20466,
+      "km": 175543
+     },
+     {
+      "car_id": 4,
+      "day": 20476,
+      "km": 177321
+     },
+     {
+      "car_id": 4,
+      "day": 20485,
+      "km": 178203
+     },
+     {
+      "car_id": 4,
+      "day": 20497,
+      "km": 179446
+     },
+     {
+      "car_id": 4,
+      "day": 20508,
+      "km": 180647
+     },
+     {
+      "car_id": 4,
+      "day": 20522,
+      "km": 182822
+     },
+     {
+      "car_id": 4,
+      "day": 20535,
+      "km": 184915
+     },
+     {
+      "car_id": 4,
+      "day": 20545,
+      "km": 186021
+     },
+     {
+      "car_id": 4,
+      "day": 20556,
+      "km": 187176
+     },
+     {
+      "car_id": 4,
+      "day": 20568,
+      "km": 188637
+     },
+     {
+      "car_id": 4,
+      "day": 20581,
+      "km": 190147
+     },
+     {
+      "car_id": 4,
+      "day": 20595,
+      "km": 192009
+     },
+     {
+      "car_id": 4,
+      "day": 20610,
+      "km": 193920
+     },
+     {
+      "car_id": 4,
+      "day": 20626,
+      "km": 196227
+     },
+     {
+      "car_id": 4,
+      "day": 20632,
+      "km": 197058
+     },
+     {
+      "car_id": 4,
+      "day": 20639,
+      "km": 198116
+     },
+     {
+      "car_id": 4,
+      "day": 20647,
+      "km": 199280
+     },
+     {
+      "car_id": 4,
+      "day": 20654,
+      "km": 200054
+     },
+     {
+      "car_id": 4,
+      "day": 20660,
+      "km": 200751
+     },
+     {
+      "car_id": 4,
+      "day": 20669,
+      "km": 201847
+     },
+     {
+      "car_id": 4,
+      "day": 20677,
+      "km": 202866
+     },
+     {
+      "car_id": 4,
+      "day": 20688,
+      "km": 204775
+     },
+     {
+      "car_id": 4,
+      "day": 20698,
+      "km": 206567
+     },
+     {
+      "car_id": 4,
+      "day": 20711,
+      "km": 207859
+     },
+     {
+      "car_id": 4,
+      "day": 20723,
+      "km": 209119
+     },
+     {
+      "car_id": 4,
+      "day": 20733,
+      "km": 210631
+     },
+     {
+      "car_id": 4,
+      "day": 20742,
+      "km": 212042
+     },
+     {
+      "car_id": 4,
+      "day": 20751,
+      "km": 213037
+     },
+     {
+      "car_id": 4,
+      "day": 20761,
+      "km": 214087
+     },
+     {
+      "car_id": 4,
+      "day": 20768,
+      "km": 214782
+     },
+     {
+      "car_id": 4,
+      "day": 20772,
+      "km": 215342
+     },
+     {
+      "car_id": 5,
+      "day": 20466,
+      "km": 38000
+     },
+     {
+      "car_id": 5,
+      "day": 20480,
+      "km": 38505
+     },
+     {
+      "car_id": 5,
+      "day": 20495,
+      "km": 39021
+     },
+     {
+      "car_id": 5,
+      "day": 20511,
+      "km": 39652
+     },
+     {
+      "car_id": 5,
+      "day": 20517,
+      "km": 39878
+     },
+     {
+      "car_id": 5,
+      "day": 20527,
+      "km": 40306
+     },
+     {
+      "car_id": 5,
+      "day": 20538,
+      "km": 40758
+     },
+     {
+      "car_id": 5,
+      "day": 20550,
+      "km": 41312
+     },
+     {
+      "car_id": 5,
+      "day": 20563,
+      "km": 41890
+     },
+     {
+      "car_id": 5,
+      "day": 20569,
+      "km": 42179
+     },
+     {
+      "car_id": 5,
+      "day": 20576,
+      "km": 42505
+     },
+     {
+      "car_id": 5,
+      "day": 20588,
+      "km": 43024
+     },
+     {
+      "car_id": 5,
+      "day": 20599,
+      "km": 43518
+     },
+     {
+      "car_id": 5,
+      "day": 20609,
+      "km": 43917
+     },
+     {
+      "car_id": 5,
+      "day": 20618,
+      "km": 44291
+     },
+     {
+      "car_id": 5,
+      "day": 20626,
+      "km": 44690
+     },
+     {
+      "car_id": 5,
+      "day": 20633,
+      "km": 45051
+     },
+     {
+      "car_id": 5,
+      "day": 20639,
+      "km": 45330
+     },
+     {
+      "car_id": 5,
+      "day": 20655,
+      "km": 46102
+     },
+     {
+      "car_id": 5,
+      "day": 20664,
+      "km": 46370
+     },
+     {
+      "car_id": 5,
+      "day": 20672,
+      "km": 46622
+     },
+     {
+      "car_id": 5,
+      "day": 20678,
+      "km": 46926
+     },
+     {
+      "car_id": 5,
+      "day": 20685,
+      "km": 47269
+     },
+     {
+      "car_id": 5,
+      "day": 20700,
+      "km": 47980
+     },
+     {
+      "car_id": 5,
+      "day": 20716,
+      "km": 48712
+     },
+     {
+      "car_id": 5,
+      "day": 20726,
+      "km": 49031
+     },
+     {
+      "car_id": 5,
+      "day": 20737,
+      "km": 49363
+     },
+     {
+      "car_id": 5,
+      "day": 20745,
+      "km": 49796
+     },
+     {
+      "car_id": 5,
+      "day": 20754,
+      "km": 50268
+     },
+     {
+      "car_id": 5,
+      "day": 20763,
+      "km": 50615
+     },
+     {
+      "car_id": 5,
+      "day": 20774,
+      "km": 51077
+     },
+     {
+      "car_id": 6,
+      "day": 20503,
+      "km": 9000
+     },
+     {
+      "car_id": 6,
+      "day": 20511,
+      "km": 9563
+     },
+     {
+      "car_id": 6,
+      "day": 20518,
+      "km": 9836
+     },
+     {
+      "car_id": 6,
+      "day": 20524,
+      "km": 10232
+     },
+     {
+      "car_id": 6,
+      "day": 20540,
+      "km": 11323
+     },
+     {
+      "car_id": 6,
+      "day": 20552,
+      "km": 12062
+     },
+     {
+      "car_id": 6,
+      "day": 20563,
+      "km": 12763
+     },
+     {
+      "car_id": 6,
+      "day": 20573,
+      "km": 13335
+     },
+     {
+      "car_id": 6,
+      "day": 20582,
+      "km": 13869
+     },
+     {
+      "car_id": 6,
+      "day": 20598,
+      "km": 14713
+     },
+     {
+      "car_id": 6,
+      "day": 20613,
+      "km": 15538
+     },
+     {
+      "car_id": 6,
+      "day": 20623,
+      "km": 16033
+     },
+     {
+      "car_id": 6,
+      "day": 20634,
+      "km": 16553
+     },
+     {
+      "car_id": 6,
+      "day": 20642,
+      "km": 16913
+     },
+     {
+      "car_id": 6,
+      "day": 20651,
+      "km": 17299
+     },
+     {
+      "car_id": 6,
+      "day": 20657,
+      "km": 17543
+     },
+     {
+      "car_id": 6,
+      "day": 20664,
+      "km": 17812
+     },
+     {
+      "car_id": 6,
+      "day": 20679,
+      "km": 18859
+     },
+     {
+      "car_id": 6,
+      "day": 20695,
+      "km": 19941
+     },
+     {
+      "car_id": 6,
+      "day": 20702,
+      "km": 20399
+     },
+     {
+      "car_id": 6,
+      "day": 20710,
+      "km": 20905
+     },
+     {
+      "car_id": 6,
+      "day": 20722,
+      "km": 21367
+     },
+     {
+      "car_id": 6,
+      "day": 20733,
+      "km": 21814
+     },
+     {
+      "car_id": 6,
+      "day": 20743,
+      "km": 22490
+     },
+     {
+      "car_id": 6,
+      "day": 20752,
+      "km": 23118
+     },
+     {
+      "car_id": 6,
+      "day": 20768,
+      "km": 24130
+     },
+     {
+      "car_id": 6,
+      "day": 20774,
+      "km": 24460
+     },
+     {
+      "car_id": 7,
+      "day": 20540,
+      "km": 27000
+     },
+     {
+      "car_id": 7,
+      "day": 20552,
+      "km": 27524
+     },
+     {
+      "car_id": 7,
+      "day": 20565,
+      "km": 28072
+     },
+     {
+      "car_id": 7,
+      "day": 20575,
+      "km": 28478
+     },
+     {
+      "car_id": 7,
+      "day": 20586,
+      "km": 28908
+     },
+     {
+      "car_id": 7,
+      "day": 20594,
+      "km": 29120
+     },
+     {
+      "car_id": 7,
+      "day": 20603,
+      "km": 29554
+     },
+     {
+      "car_id": 7,
+      "day": 20609,
+      "km": 29834
+     },
+     {
+      "car_id": 7,
+      "day": 20616,
+      "km": 30150
+     },
+     {
+      "car_id": 7,
+      "day": 20625,
+      "km": 30444
+     },
+     {
+      "car_id": 7,
+      "day": 20635,
+      "km": 30755
+     },
+     {
+      "car_id": 7,
+      "day": 20644,
+      "km": 31052
+     },
+     {
+      "car_id": 7,
+      "day": 20652,
+      "km": 31328
+     },
+     {
+      "car_id": 7,
+      "day": 20663,
+      "km": 31725
+     },
+     {
+      "car_id": 7,
+      "day": 20673,
+      "km": 32101
+     },
+     {
+      "car_id": 7,
+      "day": 20689,
+      "km": 32727
+     },
+     {
+      "car_id": 7,
+      "day": 20704,
+      "km": 33336
+     },
+     {
+      "car_id": 7,
+      "day": 20711,
+      "km": 33631
+     },
+     {
+      "car_id": 7,
+      "day": 20717,
+      "km": 33893
+     },
+     {
+      "car_id": 7,
+      "day": 20723,
+      "km": 34157
+     },
+     {
+      "car_id": 7,
+      "day": 20739,
+      "km": 34886
+     },
+     {
+      "car_id": 7,
+      "day": 20746,
+      "km": 35226
+     },
+     {
+      "car_id": 7,
+      "day": 20754,
+      "km": 35602
+     },
+     {
+      "car_id": 7,
+      "day": 20763,
+      "km": 35858
+     },
+     {
+      "car_id": 7,
+      "day": 20773,
+      "km": 36238
+     }
+    ],
+    "records": [
+     {
+      "car_id": 1,
+      "day": 20087,
+      "km": 63027,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 433000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 1
+     },
+     {
+      "car_id": 1,
+      "day": 20273,
+      "km": 70327,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 61000,
+      "parts": 545000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 2
+     },
+     {
+      "car_id": 1,
+      "day": 20464,
+      "km": 77543,
+      "items": [
+       "akkumulyator"
+      ],
+      "labour": 0,
+      "parts": 920000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -101,
+      "note": "",
+      "id": 3
+     },
+     {
+      "car_id": 1,
+      "day": 20464,
+      "km": 77627,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 542000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -101,
+      "note": "",
+      "id": 4
+     },
+     {
+      "car_id": 1,
+      "day": 20519,
+      "km": 79507,
+      "items": [
+       "antifriz"
+      ],
+      "labour": 54000,
+      "parts": 196000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 5
+     },
+     {
+      "car_id": 1,
+      "day": 20643,
+      "km": 84927,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 201000,
+      "parts": 1024000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 6
+     },
+     {
+      "car_id": 2,
+      "day": 20376,
+      "km": 100154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 41000,
+      "parts": 417000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 7
+     },
+     {
+      "car_id": 2,
+      "day": 20407,
+      "km": 105554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 64000,
+      "parts": 577000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 8
+     },
+     {
+      "car_id": 2,
+      "day": 20446,
+      "km": 110954,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 525000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 9
+     },
+     {
+      "car_id": 2,
+      "day": 20477,
+      "km": 116354,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 176000,
+      "parts": 896000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 10
+     },
+     {
+      "car_id": 2,
+      "day": 20503,
+      "km": 121754,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 40000,
+      "parts": 413000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 11
+     },
+     {
+      "car_id": 2,
+      "day": 20538,
+      "km": 127154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 0,
+      "parts": 572000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 12
+     },
+     {
+      "car_id": 2,
+      "day": 20574,
+      "km": 132554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 92000,
+      "parts": 519000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 13
+     },
+     {
+      "car_id": 2,
+      "day": 20608,
+      "km": 137954,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 174000,
+      "parts": 887000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 14
+     },
+     {
+      "car_id": 2,
+      "day": 20630,
+      "km": 143354,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 0,
+      "parts": 409000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 15
+     },
+     {
+      "car_id": 2,
+      "day": 20659,
+      "km": 148754,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 63000,
+      "parts": 567000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 16
+     },
+     {
+      "car_id": 2,
+      "day": 20700,
+      "km": 154154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 97000,
+      "parts": 548000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 17
+     },
+     {
+      "car_id": 2,
+      "day": 20733,
+      "km": 159554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 0,
+      "parts": 841000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 18
+     },
+     {
+      "car_id": 3,
+      "day": 20447,
+      "km": 53608,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 449000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 19
+     },
+     {
+      "car_id": 3,
+      "day": 20627,
+      "km": 59108,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 63000,
+      "parts": 567000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 20
+     },
+     {
+      "car_id": 4,
+      "day": 20451,
+      "km": 173642,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 43000,
+      "parts": 441000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 21
+     },
+     {
+      "car_id": 4,
+      "day": 20485,
+      "km": 179042,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 55000,
+      "parts": 497000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 22
+     },
+     {
+      "car_id": 4,
+      "day": 20522,
+      "km": 184442,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 553000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -104,
+      "note": "",
+      "id": 23
+     },
+     {
+      "car_id": 4,
+      "day": 20568,
+      "km": 189842,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 185000,
+      "parts": 942000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 24
+     },
+     {
+      "car_id": 4,
+      "day": 20610,
+      "km": 195242,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 445000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 25
+     },
+     {
+      "car_id": 4,
+      "day": 20654,
+      "km": 200642,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 0,
+      "parts": 502000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -104,
+      "note": "",
+      "id": 26
+     },
+     {
+      "car_id": 4,
+      "day": 20688,
+      "km": 206042,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 99000,
+      "parts": 559000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 27
+     },
+     {
+      "car_id": 4,
+      "day": 20733,
+      "km": 211442,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 187000,
+      "parts": 951000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 28
+     },
+     {
+      "car_id": 5,
+      "day": 20480,
+      "km": 38677,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 425000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 29
+     },
+     {
+      "car_id": 5,
+      "day": 20655,
+      "km": 46177,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 60000,
+      "parts": 535000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 30
+     },
+     {
+      "car_id": 6,
+      "day": 20552,
+      "km": 12360,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 445000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 31
+     },
+     {
+      "car_id": 6,
+      "day": 20695,
+      "km": 20360,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 56000,
+      "parts": 502000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 32
+     },
+     {
+      "car_id": 7,
+      "day": 20540,
+      "km": 27438,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 425000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 33
+     },
+     {
+      "car_id": 7,
+      "day": 20723,
+      "km": 34238,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 60000,
+      "parts": 535000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 34
+     }
+    ],
+    "items": [
+     {
+      "car_id": 1,
+      "item": "motor_moyi",
+      "last_km": 56000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "moy_filtri",
+      "last_km": 56000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "havo_filtri",
+      "last_km": 60000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "salon_filtri",
+      "last_km": 60000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "tormoz_kolodka",
+      "last_km": 60000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "svecha",
+      "last_km": 60000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "antifriz",
+      "last_km": 60000,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "grm_remni",
+      "last_km": 59027,
+      "last_day": 20635,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20045,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20540,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20422,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "motor_moyi",
+      "last_km": 91800,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "moy_filtri",
+      "last_km": 91800,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "havo_filtri",
+      "last_km": 96000,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "salon_filtri",
+      "last_km": 96000,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "tormoz_kolodka",
+      "last_km": 84000,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "svecha",
+      "last_km": 91800,
+      "last_day": 20355,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "antifriz",
+      "last_km": 150204,
+      "last_day": 20509,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "grm_remni",
+      "last_km": 145734,
+      "last_day": 20554,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20743,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20629,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20451,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "metan_ballon",
+      "last_km": null,
+      "last_day": 20560,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "motor_moyi",
+      "last_km": 48000,
+      "last_day": 20392,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "moy_filtri",
+      "last_km": 48000,
+      "last_day": 20392,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "havo_filtri",
+      "last_km": 45000,
+      "last_day": 20392,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "salon_filtri",
+      "last_km": 45000,
+      "last_day": 20392,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "tormoz_kolodka",
+      "last_km": 53188,
+      "last_day": 20564,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "svecha",
+      "last_km": 57088,
+      "last_day": 20499,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "antifriz",
+      "last_km": 57988,
+      "last_day": 20566,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20640,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20474,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20727,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "motor_moyi",
+      "last_km": 167400,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "moy_filtri",
+      "last_km": 167400,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "havo_filtri",
+      "last_km": 163200,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "salon_filtri",
+      "last_km": 168000,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "tormoz_kolodka",
+      "last_km": 168000,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "svecha",
+      "last_km": 168300,
+      "last_day": 20429,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "antifriz",
+      "last_km": 185342,
+      "last_day": 20502,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "grm_remni",
+      "last_km": 199532,
+      "last_day": 20706,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20560,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20666,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20712,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "metan_ballon",
+      "last_km": null,
+      "last_day": 20548,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "motor_moyi",
+      "last_km": 32000,
+      "last_day": 20466,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "moy_filtri",
+      "last_km": 32000,
+      "last_day": 20466,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "havo_filtri",
+      "last_km": 30000,
+      "last_day": 20466,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "salon_filtri",
+      "last_km": 30000,
+      "last_day": 20466,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "tormoz_kolodka",
+      "last_km": 35477,
+      "last_day": 20697,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "svecha",
+      "last_km": 35477,
+      "last_day": 20650,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "antifriz",
+      "last_km": 16877,
+      "last_day": 20475,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20585,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20684,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20471,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "motor_moyi",
+      "last_km": 8000,
+      "last_day": 20503,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "moy_filtri",
+      "last_km": 8000,
+      "last_day": 20503,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "havo_filtri",
+      "last_km": 0,
+      "last_day": 20503,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "salon_filtri",
+      "last_km": 0,
+      "last_day": 20503,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "tormoz_kolodka",
+      "last_km": 20560,
+      "last_day": 20621,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "svecha",
+      "last_km": 14260,
+      "last_day": 20717,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "antifriz",
+      "last_km": 0,
+      "last_day": 20485,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20603,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20652,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20732,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "motor_moyi",
+      "last_km": 24000,
+      "last_day": 20540,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "moy_filtri",
+      "last_km": 24000,
+      "last_day": 20540,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "havo_filtri",
+      "last_km": 15000,
+      "last_day": 20540,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "salon_filtri",
+      "last_km": 15000,
+      "last_day": 20540,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "tormoz_kolodka",
+      "last_km": 25138,
+      "last_day": 20727,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "svecha",
+      "last_km": 23638,
+      "last_day": 20721,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "antifriz",
+      "last_km": 15238,
+      "last_day": 20723,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20726,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20731,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20717,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     }
+    ],
+    "access": [
+     {
+      "car_id": 1,
+      "workshop_id": 1,
+      "allow": false,
+      "since_day": 20045
+     },
+     {
+      "car_id": 1,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20245
+     },
+     {
+      "car_id": 2,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20355
+     },
+     {
+      "car_id": 3,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20392
+     },
+     {
+      "car_id": 4,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20429
+     },
+     {
+      "car_id": 5,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20466
+     },
+     {
+      "car_id": 6,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20503
+     },
+     {
+      "car_id": 7,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20540
+     }
+    ]
+   },
+   "nexia": {
+    "items": [
+     {
+      "id": "motor_moyi",
+      "km": 8000,
+      "months": 6,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 8000
+     },
+     {
+      "id": "moy_filtri",
+      "km": 8000,
+      "months": 6,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 8000
+     },
+     {
+      "id": "havo_filtri",
+      "km": 15000,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 15000
+     },
+     {
+      "id": "salon_filtri",
+      "km": 15000,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 15000
+     },
+     {
+      "id": "tormoz_kolodka",
+      "km": 30000,
+      "months": null,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 30000
+     },
+     {
+      "id": "svecha",
+      "km": 30000,
+      "months": null,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 30000
+     },
+     {
+      "id": "antifriz",
+      "km": 60000,
+      "months": 36,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 60000
+     },
+     {
+      "id": "grm_remni",
+      "km": 60000,
+      "months": 48,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 60000
+     },
+     {
+      "id": "akkumulyator",
+      "km": null,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "texnik_korik",
+      "km": null,
+      "months": 12,
+      "calendar": true,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "osago",
+      "km": null,
+      "months": 12,
+      "calendar": true,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "shina",
+      "km": null,
+      "months": null,
+      "calendar": false,
+      "season": [
+       [
+        11,
+        15
+       ],
+       [
+        3,
+        15
+       ]
+      ],
+      "off": false,
+      "base_km": null
+     }
+    ],
+    "statuses": [
+     {
+      "id": "osago",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20787,
+      "km_left": null,
+      "days_left": 12,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": null,
+      "last_day": 20422,
+      "cycle": "-:20422",
+      "state": "ok"
+     },
+     {
+      "id": "motor_moyi",
+      "km_iv": 8000,
+      "months": 6,
+      "due_km": 92927,
+      "due_day": 20827,
+      "km_left": 3230,
+      "days_left": 52,
+      "lo_day": 20827,
+      "hi_day": 20827,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20643,
+      "cycle": "84927:20643",
+      "state": "ok"
+     },
+     {
+      "id": "moy_filtri",
+      "km_iv": 8000,
+      "months": 6,
+      "due_km": 92927,
+      "due_day": 20827,
+      "km_left": 3230,
+      "days_left": 52,
+      "lo_day": 20827,
+      "hi_day": 20827,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20643,
+      "cycle": "84927:20643",
+      "state": "ok"
+     },
+     {
+      "id": "akkumulyator",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20829,
+      "km_left": null,
+      "days_left": 54,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 77543,
+      "last_day": 20464,
+      "cycle": "-:20464",
+      "state": "ok"
+     },
+     {
+      "id": "shina",
+      "km_iv": null,
+      "months": null,
+      "due_km": null,
+      "due_day": 20892,
+      "km_left": null,
+      "days_left": 117,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": true,
+      "season": "summer",
+      "last_km": null,
+      "last_day": null,
+      "cycle": "20892",
+      "state": "ok"
+     },
+     {
+      "id": "texnik_korik",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20905,
+      "km_left": null,
+      "days_left": 130,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": null,
+      "last_day": 20540,
+      "cycle": "-:20540",
+      "state": "ok"
+     },
+     {
+      "id": "havo_filtri",
+      "km_iv": 15000,
+      "months": 12,
+      "due_km": 99927,
+      "due_day": 21008,
+      "km_left": 10230,
+      "days_left": 233,
+      "lo_day": 21008,
+      "hi_day": 21008,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20643,
+      "cycle": "84927:20643",
+      "state": "ok"
+     },
+     {
+      "id": "salon_filtri",
+      "km_iv": 15000,
+      "months": 12,
+      "due_km": 99927,
+      "due_day": 21008,
+      "km_left": 10230,
+      "days_left": 233,
+      "lo_day": 21008,
+      "hi_day": 21008,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20643,
+      "cycle": "84927:20643",
+      "state": "ok"
+     },
+     {
+      "id": "svecha",
+      "km_iv": 30000,
+      "months": null,
+      "due_km": 107627,
+      "due_day": 21284,
+      "km_left": 17930,
+      "days_left": 509,
+      "lo_day": 21213,
+      "hi_day": 21367,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 77627,
+      "last_day": 20464,
+      "cycle": "77627:20464",
+      "state": "ok"
+     },
+     {
+      "id": "tormoz_kolodka",
+      "km_iv": 30000,
+      "months": null,
+      "due_km": 114927,
+      "due_day": 21491,
+      "km_left": 25230,
+      "days_left": 716,
+      "lo_day": 21391,
+      "hi_day": 21608,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20643,
+      "cycle": "84927:20643",
+      "state": "ok"
+     },
+     {
+      "id": "grm_remni",
+      "km_iv": 60000,
+      "months": 48,
+      "due_km": 119027,
+      "due_day": 21608,
+      "km_left": 29330,
+      "days_left": 833,
+      "lo_day": 21491,
+      "hi_day": 21743,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 59027,
+      "last_day": 20635,
+      "cycle": "59027:20635",
+      "state": "ok"
+     },
+     {
+      "id": "antifriz",
+      "km_iv": 60000,
+      "months": 36,
+      "due_km": 139507,
+      "due_day": 21615,
+      "km_left": 49810,
+      "days_left": 840,
+      "lo_day": 21615,
+      "hi_day": 21615,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 79507,
+      "last_day": 20519,
+      "cycle": "79507:20519",
+      "state": "ok"
+     }
+    ],
+    "off": [],
+    "fc": {
+     "rate": 35250,
+     "lo": 30312,
+     "hi": 41000,
+     "n": 12,
+     "margin": 8,
+     "day": 20773,
+     "km": 89627
+    },
+    "points": [
+     [
+      20045,
+      61000
+     ],
+     [
+      20054,
+      61383
+     ],
+     [
+      20064,
+      61793
+     ],
+     [
+      20075,
+      62298
+     ],
+     [
+      20087,
+      63027
+     ],
+     [
+      20100,
+      63298
+     ],
+     [
+      20114,
+      63780
+     ],
+     [
+      20129,
+      64370
+     ],
+     [
+      20145,
+      64973
+     ],
+     [
+      20151,
+      65157
+     ],
+     [
+      20158,
+      65360
+     ],
+     [
+      20172,
+      65807
+     ],
+     [
+      20185,
+      66244
+     ],
+     [
+      20197,
+      66588
+     ],
+     [
+      20208,
+      66921
+     ],
+     [
+      20215,
+      67274
+     ],
+     [
+      20221,
+      67586
+     ],
+     [
+      20237,
+      68340
+     ],
+     [
+      20252,
+      69071
+     ],
+     [
+      20263,
+      69553
+     ],
+     [
+      20273,
+      70327
+     ],
+     [
+      20285,
+      70460
+     ],
+     [
+      20298,
+      70929
+     ],
+     [
+      20308,
+      71273
+     ],
+     [
+      20319,
+      71633
+     ],
+     [
+      20327,
+      71882
+     ],
+     [
+      20336,
+      72147
+     ],
+     [
+      20342,
+      72464
+     ],
+     [
+      20349,
+      72822
+     ],
+     [
+      20358,
+      73279
+     ],
+     [
+      20368,
+      73771
+     ],
+     [
+      20374,
+      73997
+     ],
+     [
+      20390,
+      74626
+     ],
+     [
+      20398,
+      74954
+     ],
+     [
+      20405,
+      75252
+     ],
+     [
+      20415,
+      75563
+     ],
+     [
+      20424,
+      75858
+     ],
+     [
+      20436,
+      76271
+     ],
+     [
+      20447,
+      76667
+     ],
+     [
+      20456,
+      77124
+     ],
+     [
+      20464,
+      77627
+     ],
+     [
+      20479,
+      78022
+     ],
+     [
+      20495,
+      78507
+     ],
+     [
+      20501,
+      78718
+     ],
+     [
+      20508,
+      78953
+     ],
+     [
+      20519,
+      79507
+     ],
+     [
+      20531,
+      80092
+     ],
+     [
+      20544,
+      80465
+     ],
+     [
+      20558,
+      81193
+     ],
+     [
+      20565,
+      81508
+     ],
+     [
+      20573,
+      81855
+     ],
+     [
+      20586,
+      82467
+     ],
+     [
+      20598,
+      83052
+     ],
+     [
+      20609,
+      83534
+     ],
+     [
+      20619,
+      83989
+     ],
+     [
+      20628,
+      84247
+     ],
+     [
+      20636,
+      84489
+     ],
+     [
+      20643,
+      84927
+     ],
+     [
+      20649,
+      85154
+     ],
+     [
+      20665,
+      85718
+     ],
+     [
+      20680,
+      86271
+     ],
+     [
+      20695,
+      86750
+     ],
+     [
+      20711,
+      87235
+     ],
+     [
+      20724,
+      87608
+     ],
+     [
+      20738,
+      88336
+     ],
+     [
+      20746,
+      88644
+     ],
+     [
+      20755,
+      88976
+     ],
+     [
+      20761,
+      89187
+     ],
+     [
+      20768,
+      89422
+     ],
+     [
+      20773,
+      89627
+     ]
+    ],
+    "odo": 89697
+   }
+  },
+  "1798736400000": {
+   "world": {
+    "today": 20818,
+    "users": [
+     {
+      "id": -101,
+      "name": "Jasur Karimov",
+      "phone": "+998 90 000 12 34"
+     },
+     {
+      "id": -201,
+      "name": "Bekzod Aliyev",
+      "phone": "+998 93 000 45 67"
+     },
+     {
+      "id": -301,
+      "name": "Sherzod Qodirov",
+      "phone": "+998 97 000 78 90"
+     },
+     {
+      "id": -901,
+      "name": "Admin",
+      "phone": ""
+     },
+     {
+      "id": -202,
+      "name": "Otabek Nurmatov",
+      "phone": ""
+     },
+     {
+      "id": -203,
+      "name": "Sanjar Xolmatov",
+      "phone": ""
+     },
+     {
+      "id": -102,
+      "name": "Dilshod Rahimov",
+      "phone": ""
+     },
+     {
+      "id": -103,
+      "name": "Madina Yusupova",
+      "phone": ""
+     },
+     {
+      "id": -104,
+      "name": "Rustam Ergashev",
+      "phone": ""
+     },
+     {
+      "id": -105,
+      "name": "Nigora Saidova",
+      "phone": ""
+     },
+     {
+      "id": -106,
+      "name": "Akmal Tursunov",
+      "phone": ""
+     },
+     {
+      "id": -107,
+      "name": "Kamola Nazarova",
+      "phone": ""
+     }
+    ],
+    "workshops": [
+     {
+      "id": 1,
+      "owner": -201,
+      "name": "Turbo Servis",
+      "district": "Chilonzor",
+      "address": "Chilonzor, Bunyodkor ko'chasi 21"
+     },
+     {
+      "id": 2,
+      "owner": -202,
+      "name": "Avto Doktor",
+      "district": "Yunusobod",
+      "address": "Yunusobod 4-mavze, Amir Temur 108"
+     },
+     {
+      "id": 3,
+      "owner": -203,
+      "name": "Motor Plus",
+      "district": "Sergeli",
+      "address": "Sergeli, Yangi Sergeli 7"
+     }
+    ],
+    "cars": [
+     {
+      "id": 1,
+      "owner": -101,
+      "model": "nexia3",
+      "name": "",
+      "year": 2019,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 A 254 JK",
+      "created_day": 20088,
+      "code": "SEED0001"
+     },
+     {
+      "id": 2,
+      "owner": -102,
+      "model": "gentra",
+      "name": "",
+      "year": 2020,
+      "fuel": "metan",
+      "usage": "taksi",
+      "plate": "01 B 482 KA",
+      "created_day": 20398,
+      "code": "SEED0002"
+     },
+     {
+      "id": 3,
+      "owner": -103,
+      "model": "spark",
+      "name": "",
+      "year": 2019,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 C 317 MB",
+      "created_day": 20435,
+      "code": "SEED0003"
+     },
+     {
+      "id": 4,
+      "owner": -104,
+      "model": "damas",
+      "name": "",
+      "year": 2017,
+      "fuel": "metan",
+      "usage": "taksi",
+      "plate": "10 D 905 RA",
+      "created_day": 20472,
+      "code": "SEED0004"
+     },
+     {
+      "id": 5,
+      "owner": -105,
+      "model": "malibu",
+      "name": "",
+      "year": 2022,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 E 777 NS",
+      "created_day": 20509,
+      "code": "SEED0005"
+     },
+     {
+      "id": 6,
+      "owner": -106,
+      "model": "byd_chazor",
+      "name": "",
+      "year": 2025,
+      "fuel": "gibrid",
+      "usage": "shaxsiy",
+      "plate": "01 F 120 AT",
+      "created_day": 20546,
+      "code": "SEED0006"
+     },
+     {
+      "id": 7,
+      "owner": -107,
+      "model": "tracker",
+      "name": "",
+      "year": 2023,
+      "fuel": "benzin",
+      "usage": "shaxsiy",
+      "plate": "01 G 641 KN",
+      "created_day": 20583,
+      "code": "SEED0007"
+     }
+    ],
+    "readings": [
+     {
+      "car_id": 1,
+      "day": 20088,
+      "km": 61000
+     },
+     {
+      "car_id": 1,
+      "day": 20097,
+      "km": 61383
+     },
+     {
+      "car_id": 1,
+      "day": 20107,
+      "km": 61793
+     },
+     {
+      "car_id": 1,
+      "day": 20118,
+      "km": 62298
+     },
+     {
+      "car_id": 1,
+      "day": 20130,
+      "km": 62829
+     },
+     {
+      "car_id": 1,
+      "day": 20143,
+      "km": 63298
+     },
+     {
+      "car_id": 1,
+      "day": 20157,
+      "km": 63780
+     },
+     {
+      "car_id": 1,
+      "day": 20172,
+      "km": 64370
+     },
+     {
+      "car_id": 1,
+      "day": 20188,
+      "km": 64973
+     },
+     {
+      "car_id": 1,
+      "day": 20194,
+      "km": 65157
+     },
+     {
+      "car_id": 1,
+      "day": 20201,
+      "km": 65360
+     },
+     {
+      "car_id": 1,
+      "day": 20215,
+      "km": 65807
+     },
+     {
+      "car_id": 1,
+      "day": 20228,
+      "km": 66244
+     },
+     {
+      "car_id": 1,
+      "day": 20240,
+      "km": 66588
+     },
+     {
+      "car_id": 1,
+      "day": 20251,
+      "km": 66921
+     },
+     {
+      "car_id": 1,
+      "day": 20258,
+      "km": 67274
+     },
+     {
+      "car_id": 1,
+      "day": 20264,
+      "km": 67586
+     },
+     {
+      "car_id": 1,
+      "day": 20280,
+      "km": 68340
+     },
+     {
+      "car_id": 1,
+      "day": 20295,
+      "km": 69071
+     },
+     {
+      "car_id": 1,
+      "day": 20306,
+      "km": 69553
+     },
+     {
+      "car_id": 1,
+      "day": 20316,
+      "km": 70008
+     },
+     {
+      "car_id": 1,
+      "day": 20328,
+      "km": 70460
+     },
+     {
+      "car_id": 1,
+      "day": 20341,
+      "km": 70929
+     },
+     {
+      "car_id": 1,
+      "day": 20351,
+      "km": 71273
+     },
+     {
+      "car_id": 1,
+      "day": 20362,
+      "km": 71633
+     },
+     {
+      "car_id": 1,
+      "day": 20370,
+      "km": 71882
+     },
+     {
+      "car_id": 1,
+      "day": 20379,
+      "km": 72147
+     },
+     {
+      "car_id": 1,
+      "day": 20385,
+      "km": 72464
+     },
+     {
+      "car_id": 1,
+      "day": 20392,
+      "km": 72822
+     },
+     {
+      "car_id": 1,
+      "day": 20401,
+      "km": 73279
+     },
+     {
+      "car_id": 1,
+      "day": 20411,
+      "km": 73771
+     },
+     {
+      "car_id": 1,
+      "day": 20417,
+      "km": 73997
+     },
+     {
+      "car_id": 1,
+      "day": 20433,
+      "km": 74626
+     },
+     {
+      "car_id": 1,
+      "day": 20441,
+      "km": 74954
+     },
+     {
+      "car_id": 1,
+      "day": 20448,
+      "km": 75252
+     },
+     {
+      "car_id": 1,
+      "day": 20458,
+      "km": 75563
+     },
+     {
+      "car_id": 1,
+      "day": 20467,
+      "km": 75858
+     },
+     {
+      "car_id": 1,
+      "day": 20479,
+      "km": 76271
+     },
+     {
+      "car_id": 1,
+      "day": 20490,
+      "km": 76667
+     },
+     {
+      "car_id": 1,
+      "day": 20499,
+      "km": 77124
+     },
+     {
+      "car_id": 1,
+      "day": 20507,
+      "km": 77543
+     },
+     {
+      "car_id": 1,
+      "day": 20522,
+      "km": 78022
+     },
+     {
+      "car_id": 1,
+      "day": 20538,
+      "km": 78507
+     },
+     {
+      "car_id": 1,
+      "day": 20544,
+      "km": 78718
+     },
+     {
+      "car_id": 1,
+      "day": 20551,
+      "km": 78953
+     },
+     {
+      "car_id": 1,
+      "day": 20562,
+      "km": 79507
+     },
+     {
+      "car_id": 1,
+      "day": 20574,
+      "km": 80092
+     },
+     {
+      "car_id": 1,
+      "day": 20587,
+      "km": 80465
+     },
+     {
+      "car_id": 1,
+      "day": 20601,
+      "km": 81193
+     },
+     {
+      "car_id": 1,
+      "day": 20608,
+      "km": 81508
+     },
+     {
+      "car_id": 1,
+      "day": 20616,
+      "km": 81855
+     },
+     {
+      "car_id": 1,
+      "day": 20629,
+      "km": 82467
+     },
+     {
+      "car_id": 1,
+      "day": 20641,
+      "km": 83052
+     },
+     {
+      "car_id": 1,
+      "day": 20652,
+      "km": 83534
+     },
+     {
+      "car_id": 1,
+      "day": 20662,
+      "km": 83989
+     },
+     {
+      "car_id": 1,
+      "day": 20671,
+      "km": 84247
+     },
+     {
+      "car_id": 1,
+      "day": 20679,
+      "km": 84489
+     },
+     {
+      "car_id": 1,
+      "day": 20686,
+      "km": 84842
+     },
+     {
+      "car_id": 1,
+      "day": 20692,
+      "km": 85154
+     },
+     {
+      "car_id": 1,
+      "day": 20708,
+      "km": 85718
+     },
+     {
+      "car_id": 1,
+      "day": 20723,
+      "km": 86271
+     },
+     {
+      "car_id": 1,
+      "day": 20738,
+      "km": 86750
+     },
+     {
+      "car_id": 1,
+      "day": 20754,
+      "km": 87235
+     },
+     {
+      "car_id": 1,
+      "day": 20767,
+      "km": 87608
+     },
+     {
+      "car_id": 1,
+      "day": 20781,
+      "km": 88336
+     },
+     {
+      "car_id": 1,
+      "day": 20789,
+      "km": 88644
+     },
+     {
+      "car_id": 1,
+      "day": 20798,
+      "km": 88976
+     },
+     {
+      "car_id": 1,
+      "day": 20804,
+      "km": 89187
+     },
+     {
+      "car_id": 1,
+      "day": 20811,
+      "km": 89422
+     },
+     {
+      "car_id": 1,
+      "day": 20816,
+      "km": 89627
+     },
+     {
+      "car_id": 2,
+      "day": 20398,
+      "km": 96000
+     },
+     {
+      "car_id": 2,
+      "day": 20406,
+      "km": 97122
+     },
+     {
+      "car_id": 2,
+      "day": 20413,
+      "km": 98149
+     },
+     {
+      "car_id": 2,
+      "day": 20419,
+      "km": 98911
+     },
+     {
+      "car_id": 2,
+      "day": 20435,
+      "km": 101049
+     },
+     {
+      "car_id": 2,
+      "day": 20450,
+      "km": 103548
+     },
+     {
+      "car_id": 2,
+      "day": 20464,
+      "km": 105973
+     },
+     {
+      "car_id": 2,
+      "day": 20477,
+      "km": 107967
+     },
+     {
+      "car_id": 2,
+      "day": 20489,
+      "km": 109887
+     },
+     {
+      "car_id": 2,
+      "day": 20505,
+      "km": 112896
+     },
+     {
+      "car_id": 2,
+      "day": 20520,
+      "km": 115816
+     },
+     {
+      "car_id": 2,
+      "day": 20529,
+      "km": 117598
+     },
+     {
+      "car_id": 2,
+      "day": 20539,
+      "km": 119512
+     },
+     {
+      "car_id": 2,
+      "day": 20546,
+      "km": 120805
+     },
+     {
+      "car_id": 2,
+      "day": 20554,
+      "km": 122230
+     },
+     {
+      "car_id": 2,
+      "day": 20567,
+      "km": 123838
+     },
+     {
+      "car_id": 2,
+      "day": 20581,
+      "km": 125478
+     },
+     {
+      "car_id": 2,
+      "day": 20592,
+      "km": 127801
+     },
+     {
+      "car_id": 2,
+      "day": 20604,
+      "km": 130256
+     },
+     {
+      "car_id": 2,
+      "day": 20610,
+      "km": 131156
+     },
+     {
+      "car_id": 2,
+      "day": 20617,
+      "km": 132160
+     },
+     {
+      "car_id": 2,
+      "day": 20627,
+      "km": 133843
+     },
+     {
+      "car_id": 2,
+      "day": 20636,
+      "km": 135417
+     },
+     {
+      "car_id": 2,
+      "day": 20644,
+      "km": 136657
+     },
+     {
+      "car_id": 2,
+      "day": 20651,
+      "km": 137788
+     },
+     {
+      "car_id": 2,
+      "day": 20657,
+      "km": 138956
+     },
+     {
+      "car_id": 2,
+      "day": 20673,
+      "km": 142176
+     },
+     {
+      "car_id": 2,
+      "day": 20688,
+      "km": 144898
+     },
+     {
+      "car_id": 2,
+      "day": 20702,
+      "km": 147531
+     },
+     {
+      "car_id": 2,
+      "day": 20715,
+      "km": 149032
+     },
+     {
+      "car_id": 2,
+      "day": 20727,
+      "km": 150497
+     },
+     {
+      "car_id": 2,
+      "day": 20743,
+      "km": 153189
+     },
+     {
+      "car_id": 2,
+      "day": 20749,
+      "km": 154159
+     },
+     {
+      "car_id": 2,
+      "day": 20756,
+      "km": 155429
+     },
+     {
+      "car_id": 2,
+      "day": 20764,
+      "km": 156828
+     },
+     {
+      "car_id": 2,
+      "day": 20776,
+      "km": 158530
+     },
+     {
+      "car_id": 2,
+      "day": 20789,
+      "km": 160288
+     },
+     {
+      "car_id": 2,
+      "day": 20803,
+      "km": 162459
+     },
+     {
+      "car_id": 2,
+      "day": 20816,
+      "km": 164604
+     },
+     {
+      "car_id": 3,
+      "day": 20435,
+      "km": 52000
+     },
+     {
+      "car_id": 3,
+      "day": 20443,
+      "km": 52215
+     },
+     {
+      "car_id": 3,
+      "day": 20452,
+      "km": 52446
+     },
+     {
+      "car_id": 3,
+      "day": 20458,
+      "km": 52592
+     },
+     {
+      "car_id": 3,
+      "day": 20465,
+      "km": 52754
+     },
+     {
+      "car_id": 3,
+      "day": 20477,
+      "km": 53018
+     },
+     {
+      "car_id": 3,
+      "day": 20490,
+      "km": 53533
+     },
+     {
+      "car_id": 3,
+      "day": 20500,
+      "km": 53917
+     },
+     {
+      "car_id": 3,
+      "day": 20511,
+      "km": 54326
+     },
+     {
+      "car_id": 3,
+      "day": 20526,
+      "km": 54865
+     },
+     {
+      "car_id": 3,
+      "day": 20542,
+      "km": 55420
+     },
+     {
+      "car_id": 3,
+      "day": 20550,
+      "km": 55633
+     },
+     {
+      "car_id": 3,
+      "day": 20557,
+      "km": 55828
+     },
+     {
+      "car_id": 3,
+      "day": 20567,
+      "km": 56119
+     },
+     {
+      "car_id": 3,
+      "day": 20576,
+      "km": 56392
+     },
+     {
+      "car_id": 3,
+      "day": 20588,
+      "km": 56652
+     },
+     {
+      "car_id": 3,
+      "day": 20599,
+      "km": 56904
+     },
+     {
+      "car_id": 3,
+      "day": 20613,
+      "km": 57242
+     },
+     {
+      "car_id": 3,
+      "day": 20626,
+      "km": 57572
+     },
+     {
+      "car_id": 3,
+      "day": 20642,
+      "km": 58142
+     },
+     {
+      "car_id": 3,
+      "day": 20657,
+      "km": 58695
+     },
+     {
+      "car_id": 3,
+      "day": 20663,
+      "km": 58854
+     },
+     {
+      "car_id": 3,
+      "day": 20670,
+      "km": 59031
+     },
+     {
+      "car_id": 3,
+      "day": 20678,
+      "km": 59264
+     },
+     {
+      "car_id": 3,
+      "day": 20687,
+      "km": 59515
+     },
+     {
+      "car_id": 3,
+      "day": 20697,
+      "km": 59831
+     },
+     {
+      "car_id": 3,
+      "day": 20708,
+      "km": 60165
+     },
+     {
+      "car_id": 3,
+      "day": 20720,
+      "km": 60574
+     },
+     {
+      "car_id": 3,
+      "day": 20733,
+      "km": 61001
+     },
+     {
+      "car_id": 3,
+      "day": 20742,
+      "km": 61321
+     },
+     {
+      "car_id": 3,
+      "day": 20752,
+      "km": 61665
+     },
+     {
+      "car_id": 3,
+      "day": 20767,
+      "km": 62236
+     },
+     {
+      "car_id": 3,
+      "day": 20781,
+      "km": 62787
+     },
+     {
+      "car_id": 3,
+      "day": 20794,
+      "km": 63250
+     },
+     {
+      "car_id": 3,
+      "day": 20806,
+      "km": 63692
+     },
+     {
+      "car_id": 3,
+      "day": 20814,
+      "km": 63957
+     },
+     {
+      "car_id": 3,
+      "day": 20815,
+      "km": 63988
+     },
+     {
+      "car_id": 4,
+      "day": 20472,
+      "km": 171000
+     },
+     {
+      "car_id": 4,
+      "day": 20478,
+      "km": 171688
+     },
+     {
+      "car_id": 4,
+      "day": 20494,
+      "km": 173614
+     },
+     {
+      "car_id": 4,
+      "day": 20502,
+      "km": 174622
+     },
+     {
+      "car_id": 4,
+      "day": 20509,
+      "km": 175543
+     },
+     {
+      "car_id": 4,
+      "day": 20519,
+      "km": 177321
+     },
+     {
+      "car_id": 4,
+      "day": 20528,
+      "km": 178203
+     },
+     {
+      "car_id": 4,
+      "day": 20540,
+      "km": 179446
+     },
+     {
+      "car_id": 4,
+      "day": 20551,
+      "km": 180647
+     },
+     {
+      "car_id": 4,
+      "day": 20565,
+      "km": 182822
+     },
+     {
+      "car_id": 4,
+      "day": 20578,
+      "km": 184915
+     },
+     {
+      "car_id": 4,
+      "day": 20588,
+      "km": 186021
+     },
+     {
+      "car_id": 4,
+      "day": 20599,
+      "km": 187176
+     },
+     {
+      "car_id": 4,
+      "day": 20611,
+      "km": 188637
+     },
+     {
+      "car_id": 4,
+      "day": 20624,
+      "km": 190147
+     },
+     {
+      "car_id": 4,
+      "day": 20638,
+      "km": 192009
+     },
+     {
+      "car_id": 4,
+      "day": 20653,
+      "km": 193920
+     },
+     {
+      "car_id": 4,
+      "day": 20669,
+      "km": 196227
+     },
+     {
+      "car_id": 4,
+      "day": 20675,
+      "km": 197058
+     },
+     {
+      "car_id": 4,
+      "day": 20682,
+      "km": 198116
+     },
+     {
+      "car_id": 4,
+      "day": 20690,
+      "km": 199280
+     },
+     {
+      "car_id": 4,
+      "day": 20697,
+      "km": 200054
+     },
+     {
+      "car_id": 4,
+      "day": 20703,
+      "km": 200751
+     },
+     {
+      "car_id": 4,
+      "day": 20712,
+      "km": 201847
+     },
+     {
+      "car_id": 4,
+      "day": 20720,
+      "km": 202866
+     },
+     {
+      "car_id": 4,
+      "day": 20731,
+      "km": 204775
+     },
+     {
+      "car_id": 4,
+      "day": 20741,
+      "km": 206567
+     },
+     {
+      "car_id": 4,
+      "day": 20754,
+      "km": 207859
+     },
+     {
+      "car_id": 4,
+      "day": 20766,
+      "km": 209119
+     },
+     {
+      "car_id": 4,
+      "day": 20776,
+      "km": 210631
+     },
+     {
+      "car_id": 4,
+      "day": 20785,
+      "km": 212042
+     },
+     {
+      "car_id": 4,
+      "day": 20794,
+      "km": 213037
+     },
+     {
+      "car_id": 4,
+      "day": 20804,
+      "km": 214087
+     },
+     {
+      "car_id": 4,
+      "day": 20811,
+      "km": 214782
+     },
+     {
+      "car_id": 4,
+      "day": 20815,
+      "km": 215342
+     },
+     {
+      "car_id": 5,
+      "day": 20509,
+      "km": 38000
+     },
+     {
+      "car_id": 5,
+      "day": 20523,
+      "km": 38505
+     },
+     {
+      "car_id": 5,
+      "day": 20538,
+      "km": 39021
+     },
+     {
+      "car_id": 5,
+      "day": 20554,
+      "km": 39652
+     },
+     {
+      "car_id": 5,
+      "day": 20560,
+      "km": 39878
+     },
+     {
+      "car_id": 5,
+      "day": 20570,
+      "km": 40306
+     },
+     {
+      "car_id": 5,
+      "day": 20581,
+      "km": 40758
+     },
+     {
+      "car_id": 5,
+      "day": 20593,
+      "km": 41312
+     },
+     {
+      "car_id": 5,
+      "day": 20606,
+      "km": 41890
+     },
+     {
+      "car_id": 5,
+      "day": 20612,
+      "km": 42179
+     },
+     {
+      "car_id": 5,
+      "day": 20619,
+      "km": 42505
+     },
+     {
+      "car_id": 5,
+      "day": 20631,
+      "km": 43024
+     },
+     {
+      "car_id": 5,
+      "day": 20642,
+      "km": 43518
+     },
+     {
+      "car_id": 5,
+      "day": 20652,
+      "km": 43917
+     },
+     {
+      "car_id": 5,
+      "day": 20661,
+      "km": 44291
+     },
+     {
+      "car_id": 5,
+      "day": 20669,
+      "km": 44690
+     },
+     {
+      "car_id": 5,
+      "day": 20676,
+      "km": 45051
+     },
+     {
+      "car_id": 5,
+      "day": 20682,
+      "km": 45330
+     },
+     {
+      "car_id": 5,
+      "day": 20698,
+      "km": 46102
+     },
+     {
+      "car_id": 5,
+      "day": 20707,
+      "km": 46370
+     },
+     {
+      "car_id": 5,
+      "day": 20715,
+      "km": 46622
+     },
+     {
+      "car_id": 5,
+      "day": 20721,
+      "km": 46926
+     },
+     {
+      "car_id": 5,
+      "day": 20728,
+      "km": 47269
+     },
+     {
+      "car_id": 5,
+      "day": 20743,
+      "km": 47980
+     },
+     {
+      "car_id": 5,
+      "day": 20759,
+      "km": 48712
+     },
+     {
+      "car_id": 5,
+      "day": 20769,
+      "km": 49031
+     },
+     {
+      "car_id": 5,
+      "day": 20780,
+      "km": 49363
+     },
+     {
+      "car_id": 5,
+      "day": 20788,
+      "km": 49796
+     },
+     {
+      "car_id": 5,
+      "day": 20797,
+      "km": 50268
+     },
+     {
+      "car_id": 5,
+      "day": 20806,
+      "km": 50615
+     },
+     {
+      "car_id": 5,
+      "day": 20817,
+      "km": 51077
+     },
+     {
+      "car_id": 6,
+      "day": 20546,
+      "km": 9000
+     },
+     {
+      "car_id": 6,
+      "day": 20554,
+      "km": 9563
+     },
+     {
+      "car_id": 6,
+      "day": 20561,
+      "km": 9836
+     },
+     {
+      "car_id": 6,
+      "day": 20567,
+      "km": 10232
+     },
+     {
+      "car_id": 6,
+      "day": 20583,
+      "km": 11323
+     },
+     {
+      "car_id": 6,
+      "day": 20595,
+      "km": 12062
+     },
+     {
+      "car_id": 6,
+      "day": 20606,
+      "km": 12763
+     },
+     {
+      "car_id": 6,
+      "day": 20616,
+      "km": 13335
+     },
+     {
+      "car_id": 6,
+      "day": 20625,
+      "km": 13869
+     },
+     {
+      "car_id": 6,
+      "day": 20641,
+      "km": 14713
+     },
+     {
+      "car_id": 6,
+      "day": 20656,
+      "km": 15538
+     },
+     {
+      "car_id": 6,
+      "day": 20666,
+      "km": 16033
+     },
+     {
+      "car_id": 6,
+      "day": 20677,
+      "km": 16553
+     },
+     {
+      "car_id": 6,
+      "day": 20685,
+      "km": 16913
+     },
+     {
+      "car_id": 6,
+      "day": 20694,
+      "km": 17299
+     },
+     {
+      "car_id": 6,
+      "day": 20700,
+      "km": 17543
+     },
+     {
+      "car_id": 6,
+      "day": 20707,
+      "km": 17812
+     },
+     {
+      "car_id": 6,
+      "day": 20722,
+      "km": 18859
+     },
+     {
+      "car_id": 6,
+      "day": 20738,
+      "km": 19941
+     },
+     {
+      "car_id": 6,
+      "day": 20745,
+      "km": 20399
+     },
+     {
+      "car_id": 6,
+      "day": 20753,
+      "km": 20905
+     },
+     {
+      "car_id": 6,
+      "day": 20765,
+      "km": 21367
+     },
+     {
+      "car_id": 6,
+      "day": 20776,
+      "km": 21814
+     },
+     {
+      "car_id": 6,
+      "day": 20786,
+      "km": 22490
+     },
+     {
+      "car_id": 6,
+      "day": 20795,
+      "km": 23118
+     },
+     {
+      "car_id": 6,
+      "day": 20811,
+      "km": 24130
+     },
+     {
+      "car_id": 6,
+      "day": 20817,
+      "km": 24460
+     },
+     {
+      "car_id": 7,
+      "day": 20583,
+      "km": 27000
+     },
+     {
+      "car_id": 7,
+      "day": 20595,
+      "km": 27524
+     },
+     {
+      "car_id": 7,
+      "day": 20608,
+      "km": 28072
+     },
+     {
+      "car_id": 7,
+      "day": 20618,
+      "km": 28478
+     },
+     {
+      "car_id": 7,
+      "day": 20629,
+      "km": 28908
+     },
+     {
+      "car_id": 7,
+      "day": 20637,
+      "km": 29120
+     },
+     {
+      "car_id": 7,
+      "day": 20646,
+      "km": 29554
+     },
+     {
+      "car_id": 7,
+      "day": 20652,
+      "km": 29834
+     },
+     {
+      "car_id": 7,
+      "day": 20659,
+      "km": 30150
+     },
+     {
+      "car_id": 7,
+      "day": 20668,
+      "km": 30444
+     },
+     {
+      "car_id": 7,
+      "day": 20678,
+      "km": 30755
+     },
+     {
+      "car_id": 7,
+      "day": 20687,
+      "km": 31052
+     },
+     {
+      "car_id": 7,
+      "day": 20695,
+      "km": 31328
+     },
+     {
+      "car_id": 7,
+      "day": 20706,
+      "km": 31725
+     },
+     {
+      "car_id": 7,
+      "day": 20716,
+      "km": 32101
+     },
+     {
+      "car_id": 7,
+      "day": 20732,
+      "km": 32727
+     },
+     {
+      "car_id": 7,
+      "day": 20747,
+      "km": 33336
+     },
+     {
+      "car_id": 7,
+      "day": 20754,
+      "km": 33631
+     },
+     {
+      "car_id": 7,
+      "day": 20760,
+      "km": 33893
+     },
+     {
+      "car_id": 7,
+      "day": 20766,
+      "km": 34157
+     },
+     {
+      "car_id": 7,
+      "day": 20782,
+      "km": 34886
+     },
+     {
+      "car_id": 7,
+      "day": 20789,
+      "km": 35226
+     },
+     {
+      "car_id": 7,
+      "day": 20797,
+      "km": 35602
+     },
+     {
+      "car_id": 7,
+      "day": 20806,
+      "km": 35858
+     },
+     {
+      "car_id": 7,
+      "day": 20816,
+      "km": 36238
+     }
+    ],
+    "records": [
+     {
+      "car_id": 1,
+      "day": 20130,
+      "km": 63027,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 433000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 1
+     },
+     {
+      "car_id": 1,
+      "day": 20316,
+      "km": 70327,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 61000,
+      "parts": 545000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 2
+     },
+     {
+      "car_id": 1,
+      "day": 20507,
+      "km": 77543,
+      "items": [
+       "akkumulyator"
+      ],
+      "labour": 0,
+      "parts": 920000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -101,
+      "note": "",
+      "id": 3
+     },
+     {
+      "car_id": 1,
+      "day": 20507,
+      "km": 77627,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 542000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -101,
+      "note": "",
+      "id": 4
+     },
+     {
+      "car_id": 1,
+      "day": 20562,
+      "km": 79507,
+      "items": [
+       "antifriz"
+      ],
+      "labour": 54000,
+      "parts": 196000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 5
+     },
+     {
+      "car_id": 1,
+      "day": 20686,
+      "km": 84927,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 201000,
+      "parts": 1024000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 6
+     },
+     {
+      "car_id": 2,
+      "day": 20419,
+      "km": 100154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 41000,
+      "parts": 417000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 7
+     },
+     {
+      "car_id": 2,
+      "day": 20450,
+      "km": 105554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 64000,
+      "parts": 577000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 8
+     },
+     {
+      "car_id": 2,
+      "day": 20489,
+      "km": 110954,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 525000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 9
+     },
+     {
+      "car_id": 2,
+      "day": 20520,
+      "km": 116354,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 176000,
+      "parts": 896000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 10
+     },
+     {
+      "car_id": 2,
+      "day": 20546,
+      "km": 121754,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 40000,
+      "parts": 413000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 11
+     },
+     {
+      "car_id": 2,
+      "day": 20581,
+      "km": 127154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 0,
+      "parts": 572000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 12
+     },
+     {
+      "car_id": 2,
+      "day": 20617,
+      "km": 132554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 92000,
+      "parts": 519000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 13
+     },
+     {
+      "car_id": 2,
+      "day": 20651,
+      "km": 137954,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 174000,
+      "parts": 887000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 14
+     },
+     {
+      "car_id": 2,
+      "day": 20673,
+      "km": 143354,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 0,
+      "parts": 409000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 15
+     },
+     {
+      "car_id": 2,
+      "day": 20702,
+      "km": 148754,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 63000,
+      "parts": 567000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 16
+     },
+     {
+      "car_id": 2,
+      "day": 20743,
+      "km": 154154,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 97000,
+      "parts": 548000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 17
+     },
+     {
+      "car_id": 2,
+      "day": 20776,
+      "km": 159554,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 0,
+      "parts": 841000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -102,
+      "note": "",
+      "id": 18
+     },
+     {
+      "car_id": 3,
+      "day": 20490,
+      "km": 53608,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 449000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 19
+     },
+     {
+      "car_id": 3,
+      "day": 20670,
+      "km": 59108,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 63000,
+      "parts": 567000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 20
+     },
+     {
+      "car_id": 4,
+      "day": 20494,
+      "km": 173642,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 43000,
+      "parts": 441000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 21
+     },
+     {
+      "car_id": 4,
+      "day": 20528,
+      "km": 179042,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 55000,
+      "parts": 497000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 22
+     },
+     {
+      "car_id": 4,
+      "day": 20565,
+      "km": 184442,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 0,
+      "parts": 553000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -104,
+      "note": "",
+      "id": 23
+     },
+     {
+      "car_id": 4,
+      "day": 20611,
+      "km": 189842,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 185000,
+      "parts": 942000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 24
+     },
+     {
+      "car_id": 4,
+      "day": 20653,
+      "km": 195242,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 445000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 25
+     },
+     {
+      "car_id": 4,
+      "day": 20697,
+      "km": 200642,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 0,
+      "parts": 502000,
+      "shop": "",
+      "workshop_id": null,
+      "by": -104,
+      "note": "",
+      "id": 26
+     },
+     {
+      "car_id": 4,
+      "day": 20731,
+      "km": 206042,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "svecha"
+      ],
+      "labour": 99000,
+      "parts": 559000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 27
+     },
+     {
+      "car_id": 4,
+      "day": 20776,
+      "km": 211442,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri",
+       "tormoz_kolodka"
+      ],
+      "labour": 187000,
+      "parts": 951000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 28
+     },
+     {
+      "car_id": 5,
+      "day": 20523,
+      "km": 38677,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 425000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 29
+     },
+     {
+      "car_id": 5,
+      "day": 20698,
+      "km": 46177,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 60000,
+      "parts": 535000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 30
+     },
+     {
+      "car_id": 6,
+      "day": 20595,
+      "km": 12360,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 44000,
+      "parts": 445000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 31
+     },
+     {
+      "car_id": 6,
+      "day": 20738,
+      "km": 20360,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 56000,
+      "parts": 502000,
+      "shop": "",
+      "workshop_id": 1,
+      "by": -201,
+      "note": "",
+      "id": 32
+     },
+     {
+      "car_id": 7,
+      "day": 20583,
+      "km": 27438,
+      "items": [
+       "motor_moyi",
+       "moy_filtri"
+      ],
+      "labour": 42000,
+      "parts": 425000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 33
+     },
+     {
+      "car_id": 7,
+      "day": 20766,
+      "km": 34238,
+      "items": [
+       "motor_moyi",
+       "moy_filtri",
+       "havo_filtri",
+       "salon_filtri"
+      ],
+      "labour": 60000,
+      "parts": 535000,
+      "shop": "",
+      "workshop_id": 2,
+      "by": -202,
+      "note": "",
+      "id": 34
+     }
+    ],
+    "items": [
+     {
+      "car_id": 1,
+      "item": "motor_moyi",
+      "last_km": 56000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "moy_filtri",
+      "last_km": 56000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "havo_filtri",
+      "last_km": 60000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "salon_filtri",
+      "last_km": 60000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "tormoz_kolodka",
+      "last_km": 60000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "svecha",
+      "last_km": 60000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "antifriz",
+      "last_km": 60000,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "grm_remni",
+      "last_km": 59027,
+      "last_day": 20678,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20088,
+      "guess": true
+     },
+     {
+      "car_id": 1,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20583,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20465,
+      "guess": false
+     },
+     {
+      "car_id": 1,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "motor_moyi",
+      "last_km": 91800,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "moy_filtri",
+      "last_km": 91800,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "havo_filtri",
+      "last_km": 96000,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "salon_filtri",
+      "last_km": 96000,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "tormoz_kolodka",
+      "last_km": 84000,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "svecha",
+      "last_km": 91800,
+      "last_day": 20398,
+      "guess": true
+     },
+     {
+      "car_id": 2,
+      "item": "antifriz",
+      "last_km": 150204,
+      "last_day": 20552,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "grm_remni",
+      "last_km": 145734,
+      "last_day": 20597,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20786,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20672,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20494,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "metan_ballon",
+      "last_km": null,
+      "last_day": 20603,
+      "guess": false
+     },
+     {
+      "car_id": 2,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "motor_moyi",
+      "last_km": 48000,
+      "last_day": 20435,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "moy_filtri",
+      "last_km": 48000,
+      "last_day": 20435,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "havo_filtri",
+      "last_km": 45000,
+      "last_day": 20435,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "salon_filtri",
+      "last_km": 45000,
+      "last_day": 20435,
+      "guess": true
+     },
+     {
+      "car_id": 3,
+      "item": "tormoz_kolodka",
+      "last_km": 53188,
+      "last_day": 20607,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "svecha",
+      "last_km": 57088,
+      "last_day": 20542,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "antifriz",
+      "last_km": 57988,
+      "last_day": 20609,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20683,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20517,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20770,
+      "guess": false
+     },
+     {
+      "car_id": 3,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "motor_moyi",
+      "last_km": 167400,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "moy_filtri",
+      "last_km": 167400,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "havo_filtri",
+      "last_km": 163200,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "salon_filtri",
+      "last_km": 168000,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "tormoz_kolodka",
+      "last_km": 168000,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "svecha",
+      "last_km": 168300,
+      "last_day": 20472,
+      "guess": true
+     },
+     {
+      "car_id": 4,
+      "item": "antifriz",
+      "last_km": 185342,
+      "last_day": 20545,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "grm_remni",
+      "last_km": 199532,
+      "last_day": 20749,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20603,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20709,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20755,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "metan_ballon",
+      "last_km": null,
+      "last_day": 20591,
+      "guess": false
+     },
+     {
+      "car_id": 4,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "motor_moyi",
+      "last_km": 32000,
+      "last_day": 20509,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "moy_filtri",
+      "last_km": 32000,
+      "last_day": 20509,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "havo_filtri",
+      "last_km": 30000,
+      "last_day": 20509,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "salon_filtri",
+      "last_km": 30000,
+      "last_day": 20509,
+      "guess": true
+     },
+     {
+      "car_id": 5,
+      "item": "tormoz_kolodka",
+      "last_km": 35477,
+      "last_day": 20740,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "svecha",
+      "last_km": 35477,
+      "last_day": 20693,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "antifriz",
+      "last_km": 16877,
+      "last_day": 20518,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20628,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20727,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20514,
+      "guess": false
+     },
+     {
+      "car_id": 5,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "motor_moyi",
+      "last_km": 8000,
+      "last_day": 20546,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "moy_filtri",
+      "last_km": 8000,
+      "last_day": 20546,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "havo_filtri",
+      "last_km": 0,
+      "last_day": 20546,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "salon_filtri",
+      "last_km": 0,
+      "last_day": 20546,
+      "guess": true
+     },
+     {
+      "car_id": 6,
+      "item": "tormoz_kolodka",
+      "last_km": 20560,
+      "last_day": 20664,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "svecha",
+      "last_km": 14260,
+      "last_day": 20760,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "antifriz",
+      "last_km": 0,
+      "last_day": 20528,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20646,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20695,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20775,
+      "guess": false
+     },
+     {
+      "car_id": 6,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "motor_moyi",
+      "last_km": 24000,
+      "last_day": 20583,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "moy_filtri",
+      "last_km": 24000,
+      "last_day": 20583,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "havo_filtri",
+      "last_km": 15000,
+      "last_day": 20583,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "salon_filtri",
+      "last_km": 15000,
+      "last_day": 20583,
+      "guess": true
+     },
+     {
+      "car_id": 7,
+      "item": "tormoz_kolodka",
+      "last_km": 25138,
+      "last_day": 20770,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "svecha",
+      "last_km": 23638,
+      "last_day": 20764,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "antifriz",
+      "last_km": 15238,
+      "last_day": 20766,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "akkumulyator",
+      "last_km": null,
+      "last_day": 20769,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "texnik_korik",
+      "last_km": null,
+      "last_day": 20774,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "osago",
+      "last_km": null,
+      "last_day": 20760,
+      "guess": false
+     },
+     {
+      "car_id": 7,
+      "item": "shina",
+      "last_km": null,
+      "last_day": null,
+      "guess": true
+     }
+    ],
+    "access": [
+     {
+      "car_id": 1,
+      "workshop_id": 1,
+      "allow": false,
+      "since_day": 20088
+     },
+     {
+      "car_id": 1,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20288
+     },
+     {
+      "car_id": 2,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20398
+     },
+     {
+      "car_id": 3,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20435
+     },
+     {
+      "car_id": 4,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20472
+     },
+     {
+      "car_id": 5,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20509
+     },
+     {
+      "car_id": 6,
+      "workshop_id": 1,
+      "allow": true,
+      "since_day": 20546
+     },
+     {
+      "car_id": 7,
+      "workshop_id": 2,
+      "allow": false,
+      "since_day": 20583
+     }
+    ]
+   },
+   "nexia": {
+    "items": [
+     {
+      "id": "motor_moyi",
+      "km": 8000,
+      "months": 6,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 8000
+     },
+     {
+      "id": "moy_filtri",
+      "km": 8000,
+      "months": 6,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 8000
+     },
+     {
+      "id": "havo_filtri",
+      "km": 15000,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 15000
+     },
+     {
+      "id": "salon_filtri",
+      "km": 15000,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 15000
+     },
+     {
+      "id": "tormoz_kolodka",
+      "km": 30000,
+      "months": null,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 30000
+     },
+     {
+      "id": "svecha",
+      "km": 30000,
+      "months": null,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 30000
+     },
+     {
+      "id": "antifriz",
+      "km": 60000,
+      "months": 36,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 60000
+     },
+     {
+      "id": "grm_remni",
+      "km": 60000,
+      "months": 48,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": 60000
+     },
+     {
+      "id": "akkumulyator",
+      "km": null,
+      "months": 12,
+      "calendar": false,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "texnik_korik",
+      "km": null,
+      "months": 12,
+      "calendar": true,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "osago",
+      "km": null,
+      "months": 12,
+      "calendar": true,
+      "season": null,
+      "off": false,
+      "base_km": null
+     },
+     {
+      "id": "shina",
+      "km": null,
+      "months": null,
+      "calendar": false,
+      "season": [
+       [
+        11,
+        15
+       ],
+       [
+        3,
+        15
+       ]
+      ],
+      "off": false,
+      "base_km": null
+     }
+    ],
+    "statuses": [
+     {
+      "id": "osago",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20830,
+      "km_left": null,
+      "days_left": 12,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": null,
+      "last_day": 20465,
+      "cycle": "-:20465",
+      "state": "ok"
+     },
+     {
+      "id": "motor_moyi",
+      "km_iv": 8000,
+      "months": 6,
+      "due_km": 92927,
+      "due_day": 20870,
+      "km_left": 3230,
+      "days_left": 52,
+      "lo_day": 20870,
+      "hi_day": 20870,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20686,
+      "cycle": "84927:20686",
+      "state": "ok"
+     },
+     {
+      "id": "moy_filtri",
+      "km_iv": 8000,
+      "months": 6,
+      "due_km": 92927,
+      "due_day": 20870,
+      "km_left": 3230,
+      "days_left": 52,
+      "lo_day": 20870,
+      "hi_day": 20870,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20686,
+      "cycle": "84927:20686",
+      "state": "ok"
+     },
+     {
+      "id": "akkumulyator",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20872,
+      "km_left": null,
+      "days_left": 54,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 77543,
+      "last_day": 20507,
+      "cycle": "-:20507",
+      "state": "ok"
+     },
+     {
+      "id": "shina",
+      "km_iv": null,
+      "months": null,
+      "due_km": null,
+      "due_day": 20892,
+      "km_left": null,
+      "days_left": 74,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": true,
+      "season": "summer",
+      "last_km": null,
+      "last_day": null,
+      "cycle": "20892",
+      "state": "ok"
+     },
+     {
+      "id": "texnik_korik",
+      "km_iv": null,
+      "months": 12,
+      "due_km": null,
+      "due_day": 20948,
+      "km_left": null,
+      "days_left": 130,
+      "lo_day": null,
+      "hi_day": null,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": null,
+      "last_day": 20583,
+      "cycle": "-:20583",
+      "state": "ok"
+     },
+     {
+      "id": "havo_filtri",
+      "km_iv": 15000,
+      "months": 12,
+      "due_km": 99927,
+      "due_day": 21051,
+      "km_left": 10230,
+      "days_left": 233,
+      "lo_day": 21051,
+      "hi_day": 21051,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20686,
+      "cycle": "84927:20686",
+      "state": "ok"
+     },
+     {
+      "id": "salon_filtri",
+      "km_iv": 15000,
+      "months": 12,
+      "due_km": 99927,
+      "due_day": 21051,
+      "km_left": 10230,
+      "days_left": 233,
+      "lo_day": 21051,
+      "hi_day": 21051,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20686,
+      "cycle": "84927:20686",
+      "state": "ok"
+     },
+     {
+      "id": "svecha",
+      "km_iv": 30000,
+      "months": null,
+      "due_km": 107627,
+      "due_day": 21327,
+      "km_left": 17930,
+      "days_left": 509,
+      "lo_day": 21256,
+      "hi_day": 21410,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 77627,
+      "last_day": 20507,
+      "cycle": "77627:20507",
+      "state": "ok"
+     },
+     {
+      "id": "tormoz_kolodka",
+      "km_iv": 30000,
+      "months": null,
+      "due_km": 114927,
+      "due_day": 21534,
+      "km_left": 25230,
+      "days_left": 716,
+      "lo_day": 21434,
+      "hi_day": 21651,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 84927,
+      "last_day": 20686,
+      "cycle": "84927:20686",
+      "state": "ok"
+     },
+     {
+      "id": "grm_remni",
+      "km_iv": 60000,
+      "months": 48,
+      "due_km": 119027,
+      "due_day": 21651,
+      "km_left": 29330,
+      "days_left": 833,
+      "lo_day": 21534,
+      "hi_day": 21786,
+      "basis": "km",
+      "guess": false,
+      "season": null,
+      "last_km": 59027,
+      "last_day": 20678,
+      "cycle": "59027:20678",
+      "state": "ok"
+     },
+     {
+      "id": "antifriz",
+      "km_iv": 60000,
+      "months": 36,
+      "due_km": 139507,
+      "due_day": 21658,
+      "km_left": 49810,
+      "days_left": 840,
+      "lo_day": 21658,
+      "hi_day": 21658,
+      "basis": "date",
+      "guess": false,
+      "season": null,
+      "last_km": 79507,
+      "last_day": 20562,
+      "cycle": "79507:20562",
+      "state": "ok"
+     }
+    ],
+    "off": [],
+    "fc": {
+     "rate": 35250,
+     "lo": 30312,
+     "hi": 41000,
+     "n": 12,
+     "margin": 8,
+     "day": 20816,
+     "km": 89627
+    },
+    "points": [
+     [
+      20088,
+      61000
+     ],
+     [
+      20097,
+      61383
+     ],
+     [
+      20107,
+      61793
+     ],
+     [
+      20118,
+      62298
+     ],
+     [
+      20130,
+      63027
+     ],
+     [
+      20143,
+      63298
+     ],
+     [
+      20157,
+      63780
+     ],
+     [
+      20172,
+      64370
+     ],
+     [
+      20188,
+      64973
+     ],
+     [
+      20194,
+      65157
+     ],
+     [
+      20201,
+      65360
+     ],
+     [
+      20215,
+      65807
+     ],
+     [
+      20228,
+      66244
+     ],
+     [
+      20240,
+      66588
+     ],
+     [
+      20251,
+      66921
+     ],
+     [
+      20258,
+      67274
+     ],
+     [
+      20264,
+      67586
+     ],
+     [
+      20280,
+      68340
+     ],
+     [
+      20295,
+      69071
+     ],
+     [
+      20306,
+      69553
+     ],
+     [
+      20316,
+      70327
+     ],
+     [
+      20328,
+      70460
+     ],
+     [
+      20341,
+      70929
+     ],
+     [
+      20351,
+      71273
+     ],
+     [
+      20362,
+      71633
+     ],
+     [
+      20370,
+      71882
+     ],
+     [
+      20379,
+      72147
+     ],
+     [
+      20385,
+      72464
+     ],
+     [
+      20392,
+      72822
+     ],
+     [
+      20401,
+      73279
+     ],
+     [
+      20411,
+      73771
+     ],
+     [
+      20417,
+      73997
+     ],
+     [
+      20433,
+      74626
+     ],
+     [
+      20441,
+      74954
+     ],
+     [
+      20448,
+      75252
+     ],
+     [
+      20458,
+      75563
+     ],
+     [
+      20467,
+      75858
+     ],
+     [
+      20479,
+      76271
+     ],
+     [
+      20490,
+      76667
+     ],
+     [
+      20499,
+      77124
+     ],
+     [
+      20507,
+      77627
+     ],
+     [
+      20522,
+      78022
+     ],
+     [
+      20538,
+      78507
+     ],
+     [
+      20544,
+      78718
+     ],
+     [
+      20551,
+      78953
+     ],
+     [
+      20562,
+      79507
+     ],
+     [
+      20574,
+      80092
+     ],
+     [
+      20587,
+      80465
+     ],
+     [
+      20601,
+      81193
+     ],
+     [
+      20608,
+      81508
+     ],
+     [
+      20616,
+      81855
+     ],
+     [
+      20629,
+      82467
+     ],
+     [
+      20641,
+      83052
+     ],
+     [
+      20652,
+      83534
+     ],
+     [
+      20662,
+      83989
+     ],
+     [
+      20671,
+      84247
+     ],
+     [
+      20679,
+      84489
+     ],
+     [
+      20686,
+      84927
+     ],
+     [
+      20692,
+      85154
+     ],
+     [
+      20708,
+      85718
+     ],
+     [
+      20723,
+      86271
+     ],
+     [
+      20738,
+      86750
+     ],
+     [
+      20754,
+      87235
+     ],
+     [
+      20767,
+      87608
+     ],
+     [
+      20781,
+      88336
+     ],
+     [
+      20789,
+      88644
+     ],
+     [
+      20798,
+      88976
+     ],
+     [
+      20804,
+      89187
+     ],
+     [
+      20811,
+      89422
+     ],
+     [
+      20816,
+      89627
+     ]
+    ],
+    "odo": 89697
+   }
+  }
+ }
+}
