@@ -101,7 +101,7 @@ export function garageScreens(ctx, nav) {
         h('button', { class: 'g-btn primary', type: 'submit', 'data-testid': 'km-send' }, P('app.send')));
       if (!jump) return form;
       return h('div', {}, form, h('div', { class: 'g-warn', 'data-testid': 'jump' }, h('b', {}, P('app.jump_title')),
-        h('p', {}, P('km.jump', { days: jump.days, km: `${jump.km} km`, per_day: jump.per_day })),
+        h('p', {}, P('km.jump', { days: jump.days, km: K(jump.km), per_day: jump.per_day })),
         h('div', { class: 'g-row' }, h('button', { class: 'g-btn primary', type: 'button', 'data-testid': 'jump-yes', onclick: () => send(input, true) }, P('app.yes')),
           h('button', { class: 'g-btn', type: 'button', onclick: () => { jump = null; nav.show(screen, true); } }, P('app.cancel')))));
     }

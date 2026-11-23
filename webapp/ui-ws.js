@@ -67,7 +67,13 @@ export function workshopScreens(ctx, nav) {
       e.preventDefault();
       const next = await nav.run(() => api.wsRecord(cid, { items: [...chosen], km: num(inputs.km.value), labour: num(inputs.labour.value || 0),
         parts: num(inputs.parts.value || 0), note: inputs.note.value }));
-      if (next) { v = next; chosen.clear(); ctx.toast(P('app.ws_sent')); nav.show(screen, true); }
+      if (next) {
+        v = next;
+        chosen.clear();
+        for (const k of ['labour', 'parts', 'note']) inputs[k].value = '';
+        ctx.toast(P('app.ws_sent'));
+        nav.show(screen, true);
+      }
     }
     const screen = {
       name: 'ws-car',

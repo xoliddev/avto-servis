@@ -17,13 +17,15 @@ function niceStep(span) {
 /** The odometer chart. `v` is a car view (points, fc, statuses, today). */
 export function odometerChart(v, { T, lang, P }) {
   const { points, fc, today } = v;
-  const upcoming = v.statuses.filter((st) => st.due_km !== null && st.due_day !== null && st.due_day <= today + 150 && st.due_day >= today - 30);
-  const horizon = Math.min(today + 120, Math.max(today + 30, ...upcoming.map((st) => (st.hi_day ?? st.due_day) + 4)));
+  const upcoming = v.statuses.filter((st) => st.due_km !== null && st.due_day !== null && st.due_day <= today + 75 && st.due_day >= today - 30);
+  const soonest = [...new Set(upcoming.map((st) => st.hi_day ?? st.due_day))].sort((a, b) => a - b).slice(0, 2);
+  const horizon = Math.min(today + 75, Math.max(today + 30, ...soonest.map((d) => d + 6)));
+  const marks = upcoming.filter((st) => st.due_day <= horizon);
   const from = Math.max(points[0][0], Math.min(today - 30, fc.day - 10));
   const shown = points.filter(([d]) => d >= from);
   const real = shown.length ? shown : [points.at(-1)];
   const kmLo = Math.min(...real.map(([, k]) => k));
-  const kmHi = Math.max(odoOn(fc, horizon, fc.hi), ...upcoming.map((st) => st.due_km));
+  const kmHi = Math.max(odoOn(fc, horizon, fc.hi), ...marks.map((st) => st.due_km));
   const step = niceStep(Math.max(500, kmHi - kmLo));
   const y0 = Math.floor(kmLo / step) * step;
   const y1 = Math.ceil(kmHi / step) * step;
@@ -46,7 +48,7 @@ export function odometerChart(v, { T, lang, P }) {
   kids.push(s('polyline', { points: real.map(([d, k]) => `${x(d)},${y(k)}`).join(' '), class: 'c-real' }));
   for (const [d, k] of real) kids.push(s('circle', { cx: x(d), cy: y(k), r: 3.2, class: 'c-dot' }));
   const groups = new Map();
-  for (const st of upcoming) {
+  for (const st of marks) {
     const key = `${st.due_day}:${st.due_km}`;
     if (!groups.has(key)) groups.set(key, { ...st, names: [] });
     groups.get(key).names.push(itemName(T, lang, st.id));
